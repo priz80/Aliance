@@ -2,6 +2,24 @@
   box-sizing: border-box;
 }
 
+:root {
+  --txt: #292d33;
+  --txt2: #828a99;
+  --main: #5c8ee5;
+  --sep: #ebebf0;
+  --white: #fff;
+  --bg: #fafbfc;
+  --sep-opacity: rgba(235, 235, 240, 0.2);
+  --bg2: #f0f2f5;
+  --sep2: #e4e4eb;
+}
+
+:root {
+  --font-family: "Noto Sans", sans-serif;
+  --second-family: "Bebas Neue", sans-serif;
+  --third-family: "Font Awesome 6 Pro", sans-serif;
+}
+
 @font-face {
   font-family: "Bebas Neue";
   src: url("../fonts/BebasNeueBook.woff") format("woff");
@@ -21,6 +39,7 @@ body {
 }
 
 .header {
+  padding-top: 94px;
   min-height: 100vh;
 }
 
@@ -48,8 +67,23 @@ body {
   align-items: center;
   height: 94px;
   color: #fff;
-  position: relative;
   border-bottom: 1px solid rgba(235, 235, 240, 0.2);
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  transition: background-color 0.2s;
+}
+
+.navbar-light {
+    background-color: #fff;
+    color: #292d33;
+}
+
+.navbar-light .header-logo-path {
+    fill: #292d33;
 }
 
 .header-logo {
@@ -156,7 +190,87 @@ body {
 }
 
 .header-features-text {
-    font-weight: 400;
+  font-weight: 400;
   font-size: 16px;
   line-height: 160%;
+}
+
+.section {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.section-title {
+  font-family: var(--second-family);
+  color: var(--txt);
+  font-size: 60px;
+  line-height: 120%;
+}
+
+.steps {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 30px;
+}
+
+.steps-item {
+  max-width: 330px;
+}
+
+.steps-num {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  color: var(--main);
+  display: flex;
+  align-items: center;
+}
+
+.steps-num::after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background: var(--sep);
+  margin-left: 30px;
+}
+
+.steps-title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 160%;
+  color: var(--txt);
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.steps-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--txt2);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.steps-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--main);
+}
+
+.steps-link::before {
+  content: "";
+  height: 1px;
+  width: 40px;
+  background: var(--main);
+  margin-right: 20px;
 }

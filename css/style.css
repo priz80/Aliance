@@ -73,7 +73,7 @@ body {
   width: 100%;
   left: 0;
   top: 0;
-  transition: background-color 0.2s, heigth;
+  transition: background-color 0.1s, heigth;
 }
 
 .navbar-light {
@@ -137,6 +137,10 @@ body {
 .navbar-button {
   flex-shrink: 0;
   height: 100%;
+}
+.navbar-button-s {
+  flex-shrink: 0;
+  height: 75px;
 }
 
 .header-button {

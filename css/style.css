@@ -73,17 +73,16 @@ body {
   width: 100%;
   left: 0;
   top: 0;
-  z-index: 2;
   transition: background-color 0.2s;
 }
 
 .navbar-light {
-    background-color: #fff;
-    color: #292d33;
+  background-color: #fff;
+  color: #292d33;
 }
 
 .navbar-light .header-logo-path {
-    fill: #292d33;
+  fill: #292d33;
 }
 
 .header-logo {
@@ -134,7 +133,7 @@ body {
 
 .navbar-button {
   flex-shrink: 0;
-  height: 100%;
+  height: 95px;
 }
 
 .header-button {

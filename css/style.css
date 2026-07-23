@@ -73,12 +73,13 @@ body {
   width: 100%;
   left: 0;
   top: 0;
-  transition: background-color 0.2s;
+  transition: background-color 0.2s, heigth;
 }
 
 .navbar-light {
   background-color: #fff;
   color: #292d33;
+  height: 74px;
 }
 
 .navbar-light .header-logo-path {
@@ -86,9 +87,11 @@ body {
 }
 
 .header-logo {
-  padding: 25px 50px;
+  padding: 0 50px;
   border-right: 1px solid rgba(235, 235, 240, 0.2);
   height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .header-nav {
@@ -133,7 +136,7 @@ body {
 
 .navbar-button {
   flex-shrink: 0;
-  height: 95px;
+  height: 100%;
 }
 
 .header-button {

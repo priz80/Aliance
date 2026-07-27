@@ -12,7 +12,6 @@ li > a {
   list-style: none;
 }
 
-
 :root {
   --txt: #292d33;
   --txt2: #828a99;
@@ -55,7 +54,7 @@ body {
 
 .header {
   padding-top: 5.875rem;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 .header-image {
@@ -136,11 +135,6 @@ body {
   color: inherit;
 }
 
-/* .phone-svg {
-  width: 1.5rem;
-  height: 1.5rem;
-} */
-
 .header-phone {
   flex-shrink: 0;
   display: flex;
@@ -172,13 +166,15 @@ body {
   padding: 1.5625rem 3.375rem;
 }
 
-.navbar-button .phone-svg {
+.button-icon {
   display: none;
 }
 
 .navbar-button-s {
   flex-shrink: 0;
-  height: 5.125rem;
+  height: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .header-content {
@@ -218,7 +214,7 @@ body {
   padding-inline: 3.75rem;
   width: 19.5625rem;
   height: 4.75rem;
-  letter-spacing: 0.3px;
+  letter-spacing: .0187rem;
   line-height: 120%;
 }
 
@@ -389,12 +385,12 @@ body {
 
 @media (max-width: 1100px) {
   html {
-    font-size: 12px;
+    font-size: 10px;
   }
 
-  .container {
+  /* .container {
     min-width: 60rem;
-  }
+  } */
 
   .header-nav {
     display: none;
@@ -406,10 +402,10 @@ body {
   }
 
   .mobile-menu-toggle {
-    width: 80px;
+    width: 5rem;
     height: 100%;
     display: flex;
-    border-right: 1px solid rgba(235, 235, 240, 0.2);
+    border-right: .0625rem solid rgba(235, 235, 240, 0.2);
     justify-content: space-between;
     flex-direction: column;
     padding: 1.5rem;
@@ -433,9 +429,11 @@ body {
     display: none;
   }
 
-  .navbar-button .phone-svg {
+  .button-icon {
     display: block;
     fill: #fff;
+    width: 1.5rem;
+    height: 1.5rem;
   }
 
   .mobile-menu {
@@ -477,7 +475,6 @@ body {
     padding: 0;
     padding-left: 1rem;
     margin-top: 1rem;
-    /* list-style-type: none; */
   }
 
   .mobile-submenu-link {
@@ -515,5 +512,24 @@ body {
     line-height: 160%;
     color: var(--txt);
   }
-  
+}
+
+
+@media (max-width: 952px) {
+  html {
+    font-size: 5px;
+  }
+
+  /* .container {
+    min-width: 40rem;
+  } */
+}
+@media (max-width: 485px) {
+  html {
+    font-size: 4px;
+  }
+
+  /* .container {
+    min-width: 40rem;
+  } */
 }

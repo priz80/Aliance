@@ -108,7 +108,6 @@ body {
   font-size: 16px;
   margin-right: 53px;
   color: inherit;
-
 }
 
 .header-phone {
@@ -176,7 +175,6 @@ body {
   line-height: 160%;
   margin: 38px 0 49px;
   letter-spacing: 0.1px;
-  /* word-spacing: -6.6px; */
 }
 
 .header-button {
@@ -185,7 +183,6 @@ body {
   width: 313px;
   height: 76px;
   letter-spacing: 0.3px;
-  /* word-spacing: -1px; */
   line-height: 120%;
 }
 
@@ -226,6 +223,7 @@ body {
   color: var(--txt);
   font-size: 60px;
   line-height: 120%;
+  margin: 24px 0 50px;
 }
 
 .steps {

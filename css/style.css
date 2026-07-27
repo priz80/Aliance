@@ -218,13 +218,26 @@ body {
 
 .header-features {
   display: flex;
-  flex-wrap: wrap;
   min-height: 10.5rem;
   margin-top: 6.25rem;
   padding: 0;
   list-style: none;
   color: var(--white);
   position: relative;
+}
+
+.slider-buttons {
+  display: none;
+  height: 44px;
+}
+.slider-button-prev, .slider-button-next {
+  height: 100%;
+  flex-basis: 50%;
+  border: 1px solid rgba(235, 235, 240, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .icon-section {
@@ -236,6 +249,7 @@ body {
   padding: 1.875rem 3.125rem 1.8125rem;
   border: 0.0625rem solid rgba(235, 235, 240, 0.2);
   width: 18rem;
+  min-height: 100%;
 }
 
 .header-features-item:not(:last-child) {
@@ -388,6 +402,11 @@ body {
     max-width: 60rem;
   }
 
+  .slider-buttons {
+  display: flex;
+  height: 44px;
+}
+
   .header-nav {
     display: none;
   }
@@ -514,10 +533,10 @@ body {
     display: none;
   }
   .close-menu .mobile-menu-line:nth-child(1) {
-   transform: rotate(45deg) translateY(17px);
+    transform: rotate(45deg) translateY(17px);
   }
   .close-menu .mobile-menu-line:nth-child(3) {
-   transform: rotate(-45deg) translateY(-18px);
+    transform: rotate(-45deg) translateY(-18px);
   }
 }
 
@@ -537,9 +556,9 @@ body {
 
 @media (max-width: 576px) {
   .container {
-    max-width: 90%;
+    max-width: 91%;
   }
-.header-title {
+  .header-title {
     font-size: 2rem;
   }
 

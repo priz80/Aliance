@@ -415,6 +415,7 @@ body {
     width: 100%;
     height: 1px;
     background-color: var(--white);
+    transition: transform 0.2s;
   }
 
   .mobile-menu-line:nth-child(2) {
@@ -516,7 +517,7 @@ body {
    transform: rotate(45deg) translateY(17px);
   }
   .close-menu .mobile-menu-line:nth-child(3) {
-   transform: rotate(-45deg) translateY(-17px);
+   transform: rotate(-45deg) translateY(-18px);
   }
 }
 

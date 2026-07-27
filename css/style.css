@@ -253,7 +253,7 @@ body {
 }
 
 .header-features-item:not(:last-child) {
-  border-right: none;
+  /* border-right: none; */
 }
 
 .header-features-text {

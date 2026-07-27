@@ -146,10 +146,6 @@ body {
   height: 75px;
 }
 
-.header-button {
-  height: 100%;
-}
-
 .header-content {
   padding-top: 150px;
   position: relative;
@@ -179,8 +175,8 @@ body {
   font-size: 16px;
   line-height: 160%;
   margin: 38px 0 49px;
-  letter-spacing: 0.7px;
-  word-spacing: -6.6px;
+  letter-spacing: 0.1px;
+  /* word-spacing: -6.6px; */
 }
 
 .header-button {
@@ -188,6 +184,9 @@ body {
   padding-inline: 60px;
   width: 313px;
   height: 76px;
+  letter-spacing: 0.3px;
+  /* word-spacing: -1px; */
+  line-height: 120%;
 }
 
 .header-features {

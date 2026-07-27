@@ -374,6 +374,11 @@ body {
 }
 
 @media (max-width: 1360px) {
+.slider-buttons {
+  display: flex;
+  height: 44px;
+}
+
   .header-phone {
     display: none;
   }
@@ -401,11 +406,6 @@ body {
   .container {
     max-width: 60rem;
   }
-
-  .slider-buttons {
-  display: flex;
-  height: 44px;
-}
 
   .header-nav {
     display: none;

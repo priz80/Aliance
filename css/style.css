@@ -399,7 +399,7 @@ body {
   } */
 
   .container {
-    max-width: 70rem;
+    max-width: 60rem;
   }
 
   .header-nav {
@@ -531,7 +531,7 @@ body {
   } */
 
   .container {
-    max-width: 60rem;
+    max-width: 20rem;
   }
 }
 @media (max-width: 485px) {
@@ -539,7 +539,7 @@ body {
     font-size: 4px;
   } */
 
-  .container {
-    max-width: 21.5625rem;
-  }
+  /* .container {
+    max-width: 40rem;
+  } */
 }

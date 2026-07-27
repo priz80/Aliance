@@ -178,7 +178,7 @@ body {
 }
 
 .header-content {
-  padding-top: 9.375rem;
+  padding-top: 3.125rem;
   position: relative;
   z-index: 1;
   color: white;
@@ -193,7 +193,7 @@ body {
 .header-title {
   max-width: 1080px;
   font-family: "Bebas Neue";
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: 400;
   line-height: 120%;
   margin: 1.4375rem 0 1.25rem;
@@ -220,6 +220,7 @@ body {
 
 .header-features {
   display: flex;
+  flex-wrap: wrap;
   min-height: 10.5rem;
   margin-top: 6.25rem;
   padding: 0;
@@ -265,6 +266,7 @@ body {
 
 .steps {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   padding: 0;
   gap: 3.75rem;
@@ -334,9 +336,9 @@ body {
 }
 
 @media (max-width: 1780px) {
-  html {
+  /* html {
     font-size: 14px;
-  }
+  } */
 }
 
 @media (max-width: 1600px) {
@@ -346,9 +348,9 @@ body {
 }
 
 @media (max-width: 1460px) {
-  html {
+  /* html {
     font-size: 12px;
-  }
+  } */
   .header-logo {
     padding: 2rem;
   }
@@ -373,9 +375,9 @@ body {
     display: none;
   }
 
-  html {
+  /* html {
     font-size: 10px;
-  }
+  } */
 
   .container {
     max-width: 70rem;
@@ -392,9 +394,9 @@ body {
 }
 
 @media (max-width: 1100px) {
-  html {
+  /* html {
     font-size: 8px;
-  }
+  } */
 
   .container {
     max-width: 70rem;
@@ -524,20 +526,20 @@ body {
 
 
 @media (max-width: 952px) {
-  html {
+  /* html {
     font-size: 8px;
-  }
+  } */
 
   .container {
     max-width: 60rem;
   }
 }
 @media (max-width: 485px) {
-  html {
+  /* html {
     font-size: 4px;
-  }
+  } */
 
   .container {
-    max-width: 345px;
+    max-width: 21.5625rem;
   }
 }

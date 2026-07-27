@@ -15,13 +15,13 @@ const lightModeOff = (event) => {
 
 const openMenu = (event) => {
   menu.classList.add("is-open");
-  mMenuToggle.classList.add('close-menu');
+  mMenuToggle.classList.add("close-menu");
   document.body.style.overflow = "hidden";
   lightModeOn();
 };
 const closeMenu = (event) => {
   menu.classList.remove("is-open");
-  mMenuToggle.classList.remove('close-menu');
+  mMenuToggle.classList.remove("close-menu");
   document.body.style.overflow = "";
   lightModeOff();
 };
@@ -44,18 +44,16 @@ mMenuToggle.addEventListener("click", (event) => {
   menu.classList.contains("is-open") ? closeMenu() : openMenu();
 });
 
-
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper(".swiper", {
   speed: 400,
   autoHeight: true,
   loop: true,
   slidesPerView: 5,
-   navigation: {
-    nextEl: '.slider-button-next',
-    prevEl: '.slider-button-prev',
+  navigation: {
+    nextEl: ".slider-button-next",
+    prevEl: ".slider-button-prev",
   },
   breakpoints: {
-
     320: {
       slidesPerView: 1,
     },
@@ -74,6 +72,6 @@ const swiper = new Swiper('.swiper', {
     },
     1360: {
       slidesPerView: 5,
-    }
-  }
+    },
+  },
 });

@@ -48,28 +48,33 @@ mMenuToggle.addEventListener("click", (event) => {
 const swiper = new Swiper('.swiper', {
   speed: 400,
   autoHeight: true,
+  loop: true,
   slidesPerView: 5,
    navigation: {
     nextEl: '.slider-button-next',
     prevEl: '.slider-button-prev',
   },
   breakpoints: {
-    // when window width is >= 320px
+
     320: {
       slidesPerView: 1,
     },
     576: {
       slidesPerView: 2,
+      centeredSlides: true,
+      slidesOffsetBefore: -170,
     },
-    // when window width is >= 480px
-    768: {
+
+    820: {
       slidesPerView: 3,
+      /* centeredSlides: true,
+      slidesOffsetBefore: 100, */
     },
-    // when window width is >= 640px
-    1024: {
+
+    1160: {
       slidesPerView: 4,
     },
-    1200: {
+    1360: {
       slidesPerView: 5,
     }
   }

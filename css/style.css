@@ -94,7 +94,8 @@ body {
 .navbar-light {
   background-color: #fff;
   color: var(--txt);
-  height: 5.0625rem;
+  /* height: 5.0625rem; */
+  border: none;
 }
 
 .phone-svg {
@@ -173,8 +174,7 @@ body {
 .navbar-button-s {
   flex-shrink: 0;
   height: 100%;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding: 1.5625rem 3.375rem;
 }
 
 .header-content {
@@ -373,6 +373,10 @@ body {
     display: none;
   }
 
+  .container {
+    max-width: 70rem;
+  }
+
   .navbar {
     height: 5rem;
   }
@@ -388,9 +392,9 @@ body {
     font-size: 10px;
   }
 
-  /* .container {
-    min-width: 60rem;
-  } */
+  .container {
+    max-width: 70rem;
+  }
 
   .header-nav {
     display: none;
@@ -520,16 +524,16 @@ body {
     font-size: 5px;
   }
 
-  /* .container {
-    min-width: 40rem;
-  } */
+  .container {
+    max-width: 60rem;
+  }
 }
 @media (max-width: 485px) {
   html {
     font-size: 4px;
   }
 
-  /* .container {
-    min-width: 40rem;
-  } */
+  .container {
+    max-width: 375px;
+  }
 }

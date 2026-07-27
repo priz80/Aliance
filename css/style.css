@@ -253,12 +253,9 @@ body {
   padding: 1.875rem 3.125rem 1.8125rem;
   border: 0.0625rem solid rgba(235, 235, 240, 0.2);
   width: 18rem;
-  min-height: 100%;
+  height: auto;
 }
 
-.header-features-item:not(:last-child) {
-  /* border-right: none; */
-}
 
 .header-features-text {
   font-weight: 400;

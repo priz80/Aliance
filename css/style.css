@@ -137,6 +137,7 @@ body {
 .navbar-button {
   flex-shrink: 0;
   height: 100%;
+  padding: 25px 54px;
 }
 .navbar-button-s {
   flex-shrink: 0;

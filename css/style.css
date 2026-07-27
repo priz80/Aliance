@@ -45,9 +45,8 @@ body {
 
 .header-image {
   background-image: url("../img/header-bg.jpg");
-  background-size: cover;
+  /* background-size: cover; */
   background-repeat: no-repeat;
-  background-position: center;
   position: relative;
 }
 
@@ -55,7 +54,7 @@ body {
   content: "";
   width: 100%;
   height: 100%;
-  background: rgba(41, 45, 51, 0.6);
+  background: rgba(41, 45, 51, 0.75);
   position: absolute;
   top: 0;
   left: 0;
@@ -73,7 +72,9 @@ body {
   width: 100%;
   left: 0;
   top: 0;
-  transition: background-color 0.1s, heigth;
+  transition:
+    background-color 0.1s,
+    heigth;
 }
 
 .navbar-light {
@@ -105,8 +106,9 @@ body {
 .header-nav-link {
   text-decoration: none;
   font-size: 16px;
-  margin-right: 50px;
+  margin-right: 53px;
   color: inherit;
+
 }
 
 .header-phone {
@@ -165,8 +167,10 @@ body {
   max-width: 1080px;
   font-family: "Bebas Neue";
   font-size: 80px;
+  font-weight: 400;
   line-height: 120%;
-  margin: 30px 0;
+  margin: 23px 0 20px;
+  letter-spacing: 0.6px;
 }
 
 .header-text {
@@ -174,7 +178,16 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  margin-bottom: 50px;
+  margin: 38px 0 49px;
+  letter-spacing: 0.7px;
+  word-spacing: -6.6px;
+}
+
+.header-button {
+  padding-block: 25px;
+  padding-inline: 60px;
+  width: 313px;
+  height: 76px;
 }
 
 .header-features {
@@ -188,8 +201,9 @@ body {
 }
 
 .header-features-item {
-  padding: 30px 50px;
+  padding: 30px 50px 29px;
   border: 1px solid rgba(235, 235, 240, 0.2);
+  width: 288px;
 }
 
 .header-features-item:not(:last-child) {
@@ -200,6 +214,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
+  margin-bottom: 0;
 }
 
 .section {

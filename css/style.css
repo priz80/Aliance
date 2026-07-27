@@ -45,7 +45,7 @@ body {
 
 .header-image {
   background-image: url("../img/header-bg.jpg");
-  /* background-size: cover; */
+  background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -223,14 +223,14 @@ body {
   color: var(--txt);
   font-size: 60px;
   line-height: 120%;
-  margin: 24px 0 50px;
+  margin: 24px 0 53px;
 }
 
 .steps {
   display: flex;
   list-style: none;
   padding: 0;
-  gap: 30px;
+  gap: 60px;
 }
 
 .steps-item {
@@ -261,8 +261,9 @@ body {
   font-size: 28px;
   line-height: 160%;
   color: var(--txt);
-  margin-top: 30px;
+  margin-top: 33px;
   margin-bottom: 10px;
+  width: 300px;
 }
 
 .steps-text {
@@ -272,7 +273,8 @@ body {
   line-height: 160%;
   color: var(--txt2);
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 23px;
+  width: 298px;
 }
 
 .steps-link {

@@ -514,25 +514,46 @@
     </section>
 
     <section class="section blog">
-      <diw class="container">
+      <div class="container">
         <div class="seporator"></div>
         <h2 class="section-title">Блог экспертов в области производства</h2>
 
-        <div class="swiper">
+        <div class="swiper blog-slider">
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
             <!-- Slides -->
-            <div class="swiper-slide">Slide 1</div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">Slide 3</div>
+            <a href="#" class="swiper-slide blog-card">
+              <img src="./img/blog-photo.jpg" alt="" class="blog-card-image">
+              <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
+              <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
+            </a>
+            <a href="#" class="swiper-slide blog-card">
+              <img src="./img/blog-photo.jpg" alt="" class="blog-card-image">
+              <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
+              <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
+            </a>
+            <a href="#" class="swiper-slide blog-card">
+              <img src="./img/blog-photo.jpg" alt="" class="blog-card-image">
+              <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
+              <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
+            </a>
           </div>
 
-          <!-- If we need navigation buttons -->
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
+          <div class="blog-buttons primary-buttons-wraper">
+            <div class="blog-button-prev primary-button-prev">
+              <svg width="36" height="24">
+                <use xlink:href="img/sprite.svg#arrow-prev"></use>
+              </svg>
+            </div>
+            <div class="blog-button-next primary-button-next">
+              <svg width="36" height="24">
+                <use xlink:href="img/sprite.svg#arrow-next"></use>
+              </svg>
+            </div>
+          </div>
 
         </div>
-      </diw>
+      </div>
     </section>
     <script src="./js/swiper-bundle.min.js"></script>
     <script src="./js/main.js"></script>

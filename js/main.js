@@ -108,6 +108,7 @@ const swiper = new Swiper(".swiper", {
 const swiperBlog = new Swiper(".blog-slider", {
   speed: 400,
   loop: true,
+  spaceBetween: 30,
   slidesPerView: 2,
     navigation: {
     nextEl: ".blog-button-next",

@@ -358,7 +358,7 @@ body {
   width: 18.625rem;
 }
 
-.steps-link {
+.button-link {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -369,7 +369,7 @@ body {
   color: var(--main);
 }
 
-.steps-link::before {
+.button-link::before {
   content: "";
   height: 1px;
   width: 40px;
@@ -378,7 +378,7 @@ body {
   transition: width 0.2s;
 }
 
-.steps-link:hover:before {
+.button-link:hover:before {
   width: 60px;
 }
 
@@ -507,19 +507,84 @@ body {
   margin-top: 0.625rem;
 }
 
+.founder {
+  position: relative;
+  min-height: 41.25rem;
+}
+
+.founder-photo {
+  position: absolute;
+  left: 0;
+  width: 40%;
+  top: 0;
+  height: 100%;
+  object-fit: cover;
+}
+
+.founder-content {
+  max-width: 45rem;
+  margin-top: 3.125rem;
+}
+
+.founder-content-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.founder-text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: var(--txt2);
+}
+
+.clients-wrapper {
+display: flex;
+}
+
+
+.clients-content {
+  flex-basis: 50%;
+}
+
+
+.clients-list {
+  padding: 0;
+  columns: 2 auto;
+}
+
+.clients-list-item {
+display: flex;
+align-items: center;
+gap: 1.25rem;
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 1rem;
+
+/* line-height: 26px; */ 
+line-height: 160%;
+color: var(--txt);
+}
+
+
 @media (max-width: 1780px) {
   html {
     font-size: 13px;
   }
 }
 
+@media (max-width: 1524px) {
+}
+
 @media (max-width: 1460px) {
   .header-logo {
     padding: 1rem 1.5rem 1rem 1rem;
   }
+
   .logo-svg {
     max-width: 9rem;
   }
+
   .header-nav {
     padding-left: 1rem;
   }
@@ -534,6 +599,9 @@ body {
 }
 
 @media (max-width: 1360px) {
+  .founder-content {
+    max-width: 35rem;
+  }
   .trademark-cards {
     flex-direction: column;
   }
@@ -726,6 +794,12 @@ body {
 }
 
 @media (max-width: 820px) {
+  .founder-photo {
+    position: relative;
+    width: 100%;
+    margin-bottom: 3.125rem;
+  }
+
   .card {
     flex-basis: 100%;
   }

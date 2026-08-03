@@ -403,7 +403,7 @@ body {
 .primary-button-next {
   background: #5c8ee5;
   height: 100%;
-  width: 60px;
+  width: 80px;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -629,13 +629,24 @@ body {
   font-size: 1.75rem;
   line-height: 160%;
   color: var(--white);
+  margin-bottom: 10px;
+  margin-top: 0;
 }
 
 .blog-card-text {
   font-size: 1rem;
   line-height: 160%;
   color: var(--white);
+  margin: 0px;
 }
+
+.blogslider-footer {
+display: flex;
+align-items: center;
+margin-top: 1.875rem;
+justify-content: space-between;
+}
+
 
 @media (max-width: 1780px) {
   html {
@@ -686,6 +697,17 @@ body {
   .steps-buttons {
     display: flex;
   }
+
+  .primary-button-prev,
+.primary-button-next {
+  background: #5c8ee5;
+  height: 100%;
+  width: 60px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
   .header-phone {
     display: none;

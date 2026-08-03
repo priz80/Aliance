@@ -218,8 +218,8 @@ body {
 
 .seporator {
   background: #5c8ee5;
-  width: 9.375rem;
-  height: 0.125rem;
+  width: 7.6rem;
+  height: 0.2rem;
 }
 
 .header-title {
@@ -244,9 +244,9 @@ body {
 .header-button {
   padding-block: 1.5625rem;
   padding-inline: 3.75rem;
-  width: 19.5625rem;
+  width: 26.5rem;
   height: 4.75rem;
-  letter-spacing: 0.0187rem;
+  letter-spacing: 0.1rem;
   line-height: 120%;
 }
 
@@ -463,10 +463,10 @@ body {
 
 @media (max-width: 1460px) {
   .header-logo {
-    padding: 2rem;
+    padding: 1rem 1.5rem 1rem 1rem;
   }
   .logo-svg {
-    max-width: 6rem;
+    max-width: 9rem;
   }
   .header-nav {
     padding-left: 1rem;
@@ -499,11 +499,11 @@ body {
   }
 
   .navbar {
-    height: 5rem;
+    height: 5.15rem;
   }
 
   .navbar-button {
-    padding-left: 2rem;
+    padding-left: 1.6rem;
     padding-right: 2rem;
   }
 
@@ -533,13 +533,13 @@ body {
   }
 
   .mobile-menu-toggle {
-    width: 5rem;
+    width: 6rem;
     height: 100%;
     display: flex;
     border-right: 0.0625rem solid rgba(235, 235, 240, 0.2);
     justify-content: space-between;
     flex-direction: column;
-    padding: 1.5rem;
+    padding: 2rem 2.2rem 2rem 2.2rem;
   }
 
   .navbar-light .mobile-menu-line {
@@ -548,7 +548,7 @@ body {
 
   .mobile-menu-line {
     width: 100%;
-    height: 1px;
+    height: 2px;
     background-color: var(--white);
     transition: transform 0.2s;
   }
@@ -564,7 +564,7 @@ body {
   .button-icon {
     display: block;
     fill: #fff;
-    width: 1.5rem;
+    width: 2.5rem;
     height: 1.5rem;
   }
 
@@ -678,10 +678,128 @@ body {
     max-width: 91%;
   }
   .header-title {
-    font-size: 2rem;
+    font-size: 3.5rem;
+    letter-spacing: 0.0625rem;
+    line-height: 126%;
+  }
+
+  .header-text {
+    margin: 1.3rem 0 2.7rem;
   }
 
   .header-content {
-    padding-top: 2rem;
+    padding-top: 3.1rem;
   }
+
+  .header-features {
+    display: flex;
+    min-height: 10.8rem;
+    margin-top: 3.8rem;
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+    color: var(--white);
+    position: relative;
+  }
+
+  .header-features-item {
+    padding: 1.875rem 0.125rem 0.8125rem;
+    width: 251.5px !important;
+    height: auto;
+    padding: 1.5rem 0rem 0.8125rem 2.2rem;
+  }
+
+  .section {
+    margin-top: 7.6rem;
+  }
+
+  .section-title {
+    font-family: var(--second-family);
+    color: var(--txt);
+    font-size: 2.75rem;
+    margin: 1.5rem 0 0.9rem;
+  }
+
+  .steps-num {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 120%;
+    color: var(--main);
+    display: flex;
+    align-items: center;
+  }
+
+  .steps-title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 160%;
+    color: var(--txt);
+    margin-top: 0.6rem;
+    margin-bottom: 0.625rem;
+    width: 18.75rem;
+  }
+
+  .steps-item {
+    width: 251rem !important;
+  }
+
+  .steps {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 4.75rem;
+    margin-bottom: 0;
+  }
+
+  .steps-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 160%;
+    color: var(--txt2);
+    margin-top: 0.625rem;
+    margin-bottom: 2.5rem;
+    width: 18.625rem;
+  }
+
+  .section {
+    margin-bottom: 7rem;
+  }
+
+  .section-title {
+    color: var(--txt);
+    font-size: 2.75rem;
+    margin: 1.3rem 0 0.9rem;
+    letter-spacing: 0.07rem;
+  }
+
+  .card-content {
+    padding: 3rem 2rem;
+  }
+
+  .card-title {
+    font-size: 1.45rem;
+    line-height: 140%;
+    color: var(--txt);
+    margin-top: 0;
+    margin-bottom: 10px;
+    transition: color 0.2s;
+  }
+
+  .card-text {
+    font-size: 1rem;
+    line-height: 160%;
+    color: var(--txt2);
+    margin-bottom: 20.625rem;
+  }
+
+  .card-image {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+}
 }

@@ -1,0 +1,21 @@
+# Конфигурационные файлы с секретами (токены, пароли)
+.env
+.env.local
+.env.*.local
+config.php
+
+# Зависимости (библиотеки, включая phpdotenv)
+vendor/
+
+# Логи и временные файлы
+*.log
+.phpunit.result.cache
+
+# Настройки редакторов кода
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp

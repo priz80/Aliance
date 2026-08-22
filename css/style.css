@@ -17,6 +17,16 @@ li > a {
   list-style: none;
 }
 
+p {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+
+/* line-height: 26px; */ 
+line-height: 160%;
+color: var(--txt2);
+}
+
 :root {
   --txt: #292d33;
   --txt2: #828a99;
@@ -1818,7 +1828,14 @@ color: var(--white);
   color: #828a99;
 }
 
-.breadcrumbs-blog-link a, p {
+.breadcrumbs-blog-link>a {
+font-weight: 400;
+font-size: .875rem;
+line-height: 160%;
+color: var(--white);
+margin: 0;
+}
+.breadcrumbs-blog-link>p {
 font-weight: 400;
 font-size: .875rem;
 line-height: 160%;

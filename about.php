@@ -20,8 +20,6 @@
       </div>
     </section>
 
-
-
     <div class="container advant">
       <div class="swiper advant-slider">
         <ul class="swiper-wrapper header-features">

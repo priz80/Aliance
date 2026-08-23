@@ -250,107 +250,256 @@ document.addEventListener("keyup", (event) => {
 
 window.dispatchEvent(new Event("scroll"));
 
-const swiperObserver = new IntersectionObserver((entries, observer) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      if (!window.Swiper) {
-        const script = document.createElement('script');
-        script.src = './js/swiper-bundle.min.js';
-        script.onload = () => {
-          new Swiper(".swiper-slider", { 
-            
-speed: 400,
-  slidesPerView: 1,
-  navigation: {
-    nextEl: ".slider-button-next",
-    prevEl: ".slider-button-prev",
-  },
-  breakpoints: {
-    320: {
-      slidesPerView: 2,
-    },
-    576: {
-      slidesPerView: 2,
-      centeredSlides: true,
-      slidesOffsetBefore: -170,
-    },
+const swiperObserver = new IntersectionObserver(
+  (entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        if (!window.Swiper) {
+          const script = document.createElement("script");
+          script.src = "./js/swiper-bundle.min.js";
+          script.onload = () => {
+            new Swiper(".swiper-slider", {
+              speed: 400,
+              slidesPerView: 1,
+              navigation: {
+                nextEl: ".slider-button-next",
+                prevEl: ".slider-button-prev",
+              },
+              breakpoints: {
+                320: {
+                  slidesPerView: 2,
+                },
+                576: {
+                  slidesPerView: 2,
+                  centeredSlides: true,
+                  slidesOffsetBefore: -170,
+                },
 
-    820: {
-      slidesPerView: 3,
-    },
+                820: {
+                  slidesPerView: 3,
+                },
 
-    1160: {
-      slidesPerView: 4,
-    },
-    1360: {
-      slidesPerView: 5,
-    },
-  },
+                1160: {
+                  slidesPerView: 4,
+                },
+                1360: {
+                  slidesPerView: 5,
+                },
+              },
+            });
+            new Swiper(".steps-slider", {
+              speed: 400,
+              slidesPerView: 4,
+              navigation: {
+                nextEl: ".steps-button-next",
+                prevEl: ".steps-button-prev",
+              },
+              breakpoints: {
+                320: {
+                  slidesPerView: 1,
+                },
+                576: {
+                  slidesPerView: 2,
+                },
+                820: {
+                  slidesPerView: 3,
+                },
+                1360: {
+                  slidesPerView: 4,
+                },
+              },
+            });
+            new Swiper(".blog-slider", {
+              speed: 400,
+              spaceBetween: 30,
+              slidesPerView: 2,
+              navigation: {
+                nextEl: ".blog-button-next",
+                prevEl: ".blog-button-prev",
+              },
+              breakpoints: {
+                320: {
+                  slidesPerView: 1,
+                },
+                576: {
+                  slidesPerView: 1,
+                },
 
+                820: {
+                  slidesPerView: 1,
+                },
+
+                1160: {
+                  slidesPerView: 2,
+                },
+                1360: {
+                  slidesPerView: 2,
+                },
+              },
+            });
+
+            new Swiper(".center-slider", {
+              speed: 400,
+              spaceBetween: 30,
+              slidesOffsetBefore: 30,
+              slidesOffsetAfter: 30,
+              centeredSlides: false,
+              slidesPerView: "auto",
+              initialSlide: 0,
+              navigation: {
+                nextEl: ".center-button-next",
+                prevEl: ".center-button-prev",
+              },
+              breakpoints: {
+                320: {
+                  slidesPerView: "auto",
+                  spaceBetween: 20,
+                  slidesOffsetBefore: 20,
+                  slidesOffsetAfter: 20,
+                },
+                576: {
+                  slidesPerView: "auto",
+                  spaceBetween: 20,
+                  slidesOffsetBefore: 20,
+                  slidesOffsetAfter: 20,
+                },
+                820: {
+                  slidesPerView: "auto",
+                  spaceBetween: 30,
+                  slidesOffsetBefore: 30,
+                  slidesOffsetAfter: 30,
+                },
+                1160: {
+                  slidesPerView: "auto",
+                  spaceBetween: 30,
+                  slidesOffsetBefore: 30,
+                  slidesOffsetAfter: 30,
+                },
+              },
+            });
+
+            new Swiper(".advant-slider", {
+              speed: 400,
+              /* spaceBetween: 30, */
+              slidesPerView: 1,
+              navigation: {
+                nextEl: ".advant-button-next",
+                prevEl: ".advant-button-prev",
+              },
+              breakpoints: {
+                320: {
+                  slidesPerView: 2,
+                },
+                576: {
+                  slidesPerView: 2,
+                  centeredSlides: true,
+                  slidesOffsetBefore: -170,
+                },
+
+                820: {
+                  slidesPerView: 3,
+                },
+
+                1160: {
+                  slidesPerView: 4,
+                },
+                1360: {
+                  slidesPerView: 5,
+                },
+              },
+            });
+          };
+          document.body.appendChild(script);
+        } else {
+          new Swiper(".swiper-slider", {
+            speed: 400,
+            slidesPerView: 1,
+            navigation: {
+              nextEl: ".slider-button-next",
+              prevEl: ".slider-button-prev",
+            },
+            breakpoints: {
+              320: {
+                slidesPerView: 2,
+              },
+              576: {
+                slidesPerView: 2,
+                centeredSlides: true,
+                slidesOffsetBefore: -170,
+              },
+
+              820: {
+                slidesPerView: 3,
+              },
+
+              1160: {
+                slidesPerView: 4,
+              },
+              1360: {
+                slidesPerView: 5,
+              },
+            },
           });
-          new Swiper(".steps-slider", { 
-            
-speed: 400,
-  slidesPerView: 4,
-  navigation: {
-    nextEl: ".steps-button-next",
-    prevEl: ".steps-button-prev",
-  },
-  breakpoints: {
-    320: {
-      slidesPerView: 1,
-    },
-    576: {
-      slidesPerView: 2,
-    },
-    820: {
-      slidesPerView: 3,
-    },
-    1360: {
-      slidesPerView: 4,
-    },
-  },
-
-           });
-          new Swiper(".blog-slider", { 
-            
- speed: 400,
-  spaceBetween: 30,
-  slidesPerView: 2,
-  navigation: {
-    nextEl: ".blog-button-next",
-    prevEl: ".blog-button-prev",
-  },
-  breakpoints: {
-    320: {
-      slidesPerView: 1,
-    },
-    576: {
-      slidesPerView: 1,
-    },
-
-    820: {
-      slidesPerView: 1,
-    },
-
-    1160: {
-      slidesPerView: 2,
-    },
-    1360: {
-      slidesPerView: 2,
-    },
-  }
-
-           });
-         
-          new Swiper(".center-slider", { 
+          new Swiper(".steps-slider", {
+            speed: 400,
+            slidesPerView: 4,
+            navigation: {
+              nextEl: ".steps-button-next",
+              prevEl: ".steps-button-prev",
+            },
+            breakpoints: {
+              320: {
+                slidesPerView: 1,
+              },
+              576: {
+                slidesPerView: 2,
+              },
+              820: {
+                slidesPerView: 3,
+              },
+              1360: {
+                slidesPerView: 4,
+              },
+            },
+          });
+          new Swiper(".blog-slider", {
             speed: 400,
             spaceBetween: 30,
-            slidesOffsetBefore: 30, 
+            slidesPerView: 2,
+            navigation: {
+              nextEl: ".blog-button-next",
+              prevEl: ".blog-button-prev",
+            },
+            breakpoints: {
+              320: {
+                slidesPerView: 1,
+              },
+              576: {
+                slidesPerView: 1,
+              },
+
+              820: {
+                slidesPerView: 1,
+              },
+
+              1160: {
+                slidesPerView: 2,
+              },
+              1360: {
+                slidesPerView: 2,
+              },
+            },
+          });
+
+          new Swiper(".center-slider", {
+            speed: 400,
+            spaceBetween: 30,
+            slidesOffsetBefore: 30,
             slidesOffsetAfter: 30,
-            centeredSlides: false,            
+            centeredSlides: false,
             slidesPerView: "auto",
             initialSlide: 0,
+
             navigation: {
               nextEl: ".center-button-next",
               prevEl: ".center-button-prev",
@@ -383,205 +532,46 @@ speed: 400,
             },
           });
 
-new Swiper(".advant-slider", { 
-            
- speed: 400,
-  /* spaceBetween: 30, */
-  slidesPerView: 1,
-  navigation: {
-    nextEl: ".advant-button-next",
-    prevEl: ".advant-button-prev",
-  },
-    breakpoints: {
-    320: {
-      slidesPerView: 2,
-    },
-    576: {
-      slidesPerView: 2,
-      centeredSlides: true,
-      slidesOffsetBefore: -170,
-    },
+          new Swiper(".advant-slider", {
+            speed: 400,
+            /*   spaceBetween: 30, */
+            slidesPerView: 1,
+            navigation: {
+              nextEl: ".advant-button-next",
+              prevEl: ".advant-button-prev",
+            },
+            breakpoints: {
+              320: {
+                slidesPerView: 2,
+              },
+              576: {
+                slidesPerView: 2,
+              },
 
-    820: {
-      slidesPerView: 3,
-    },
+              820: {
+                slidesPerView: 3,
+              },
 
-    1160: {
-      slidesPerView: 4,
-    },
-    1360: {
-      slidesPerView: 5,
-    },
-  },
-
-           });
-
-        };
-        document.body.appendChild(script);
-      } else {
-        new Swiper(".swiper-slider", { 
-          speed: 400,
-  slidesPerView: 1,
-  navigation: {
-    nextEl: ".slider-button-next",
-    prevEl: ".slider-button-prev",
-  },
-  breakpoints: {
-    320: {
-      slidesPerView: 2,
-    },
-    576: {
-      slidesPerView: 2,
-      centeredSlides: true,
-      slidesOffsetBefore: -170,
-    },
-
-    820: {
-      slidesPerView: 3,
-    },
-
-    1160: {
-      slidesPerView: 4,
-    },
-    1360: {
-      slidesPerView: 5,
-    },
-  },
-
-         });
-        new Swiper(".steps-slider", { 
-          
-speed: 400,
-  slidesPerView: 4,
-  navigation: {
-    nextEl: ".steps-button-next",
-    prevEl: ".steps-button-prev",
-  },
-  breakpoints: {
-    320: {
-      slidesPerView: 1,
-    },
-    576: {
-      slidesPerView: 2,
-    },
-    820: {
-      slidesPerView: 3,
-    },
-    1360: {
-      slidesPerView: 4,
-    },
-  },
-
-         });
-        new Swiper(".blog-slider", { 
-          
- speed: 400,
-  spaceBetween: 30,
-  slidesPerView: 2,
-  navigation: {
-    nextEl: ".blog-button-next",
-    prevEl: ".blog-button-prev",
-  },
-  breakpoints: {
-    320: {
-      slidesPerView: 1,
-    },
-    576: {
-      slidesPerView: 1,
-    },
-
-    820: {
-      slidesPerView: 1,
-    },
-
-    1160: {
-      slidesPerView: 2,
-    },
-    1360: {
-      slidesPerView: 2,
-    },
-  }
-
-         });
-
-          new Swiper(".center-slider", { 
-           speed: 400,
-           spaceBetween: 30,
-           slidesOffsetBefore: 30, 
-           slidesOffsetAfter: 30,
-           centeredSlides: false,            
-           slidesPerView: "auto",
-           initialSlide: 0,
-
-           navigation: {
-             nextEl: ".center-button-next",
-             prevEl: ".center-button-prev",
-           },
-           breakpoints: {
-             320: {
-               slidesPerView: "auto",
-               spaceBetween: 20,
-               slidesOffsetBefore: 20,
-               slidesOffsetAfter: 20,
-             },
-             576: {
-               slidesPerView: "auto",
-               spaceBetween: 20,
-               slidesOffsetBefore: 20,
-               slidesOffsetAfter: 20,
-             },
-             820: {
-               slidesPerView: "auto",
-               spaceBetween: 30,
-               slidesOffsetBefore: 30,
-               slidesOffsetAfter: 30,
-             },
-             1160: {
-               slidesPerView: "auto",
-               spaceBetween: 30,
-               slidesOffsetBefore: 30,
-               slidesOffsetAfter: 30,
-             },
-           },
-         });
-
-new Swiper(".advant-slider", { 
-          
- speed: 400,
-/*   spaceBetween: 30, */
-  slidesPerView: 1,
-  navigation: {
-    nextEl: ".advant-button-next",
-    prevEl: ".advant-button-prev",
-  },
-  breakpoints: {
-    320: {
-      slidesPerView: 2,
-    },
-    576: {
-      slidesPerView: 2,
-    },
-
-    820: {
-      slidesPerView: 3,
-    },
-
-    1160: {
-      slidesPerView: 4,
-    },
-    1360: {
-      slidesPerView: 5,
-    },
-  }
-
-         });
-
+              1160: {
+                slidesPerView: 4,
+              },
+              1360: {
+                slidesPerView: 5,
+              },
+            },
+          });
+        }
+        observer.unobserve(entry.target);
       }
-      observer.unobserve(entry.target);
-    }
-  });
-}, { threshold: 0.1 });
+    });
+  },
+  { threshold: 0.1 },
+);
 
-document.querySelectorAll('.swiper-slider, .steps-slider, .blog-slider, .advant-slider, .center-slider').forEach(el => {
-  swiperObserver.observe(el);
-});
+document
+  .querySelectorAll(
+    ".swiper-slider, .steps-slider, .blog-slider, .advant-slider, .center-slider",
+  )
+  .forEach((el) => {
+    swiperObserver.observe(el);
+  });

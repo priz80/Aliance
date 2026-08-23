@@ -5,7 +5,7 @@ include_once('page-title.php') ?>
 <?php include_once('modal.php') ?>
 <?php include_once('mobile_menu.php') ?>
 <?php include_once('navbar_light.php') ?>
-<div class="container">
+<div class="container map-container">
   <div class="footer-top">
     <!-- <a href="/" class="header-logo">
           <svg class="logo-svg footer-logo">

@@ -403,6 +403,7 @@ li > a {
 
 .steps-buttons {
   display: none;
+  visibility: hidden;
 }
 
 .primary-buttons-wraper {
@@ -1263,6 +1264,7 @@ li > a {
 
   .steps-buttons {
     display: flex;
+    visibility: visible;
   }
 
   .primary-button-prev,

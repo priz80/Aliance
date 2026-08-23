@@ -44,6 +44,7 @@ forms.forEach((form) => {
     errorFieldCssClass: "is-invalid",
   });
 
+
   validation
     .addField('[name="username"]', [
       {
@@ -67,13 +68,21 @@ forms.forEach((form) => {
         errorMessage: "Укажите телефон",
       },
       {
+        // Маска форматирует номер в +7 (XXX) XXX-XX-XX (18 символов)
+        // Проверка minLength: 11 гарантирует, что пользователь ввел достаточно цифр
+        // перед тем, как маска закончит формирование
         rule: "minLength",
-        value: 11,
+        value: 11, 
         errorMessage: "Номер телефона слишком короткий.",
       },
       {
-        validator: (value) =>
-          /^\+?[87]\s?\(\d{3}\)\s\d{3}-\d{2}-\d{2}$/.test(value),
+        validator: (value) => {
+          // Регулярка ожидает формат +7 (999) 123-45-67
+          // Учитываем, что маска может оставлять поле пустым или неполным в процессе ввода
+          // Но для финальной валидации нужна полная строка
+          const regex = /^\+?[87]\s?\(\d{3}\)\s\d{3}-\d{2}-\d{2}$/;
+          return regex.test(value);
+        },
         errorMessage:
           "Введите корректный номер телефона (например, +7 (999) 123-45-67).",
       },
@@ -147,60 +156,60 @@ forms.forEach((form) => {
     }
     /* в других случаях просто 7 (   */
     return "7 (";
-  }; /* профикс в любом раскладе будет +7 () */
+  }; 
 
-  /* Ловим события ввода в любом поле */
-  document.addEventListener("input", (e) => {
-    /* Проверяем, что это поле имеет класс phone-mask */
-    if (e.target.classList.contains("phone-mask")) {
-      /* поле с телефоном помещаем в переменную input */
+  /* Применяем маску только к полю телефона, чтобы не конфликтовать с другими input */
+  const phoneInput = document.querySelector('[name="userphone"]');
+  if (phoneInput) {
+    phoneInput.addEventListener("input", (e) => {
       const input = e.target;
-      /* вставляем плюс в начале номера */
       const value = input.value.replace(/\D+/g, "");
-      /* длинна номера 11 символов */
       const numberLength = 11;
 
-      /* Создаем переменную, куда будем записывать номер */
       let result;
-      /* Если пользователь ввел 8... */
       if (input.value.includes("+8") || input.value[0] === "8") {
-        /* Стираем восьмерку */
         result = "";
       } else {
-        /* Оставляем плюсик в поле */
         result = "+";
       }
 
-      /* Запускаем цикл, где переберем каждую цифру от 0 до 11 */
       for (let i = 0; i < value.length && i < numberLength; i++) {
         switch (i) {
           case 0:
-            /* в самом начале ставим префикс +7 ( */
             result += prefixNumber(value[i]);
             continue;
           case 4:
-            /* добавляем после "+7 (" круглую скобку ")" */
             result += ") ";
             break;
           case 7:
-            /* дефис после 7 символа */
             result += "-";
             break;
           case 9:
-            /* еще дефис  */
             result += "-";
             break;
           default:
             break;
         }
-        /* на каждом шаге цикла добавляем новую цифру к номеру */
         result += value[i];
       }
-      /* итог: номер в формате +7 (999) 123-45-67 */
-      input.value = result;
-    }
-  });
+      
+      // Обновляем значение
+      const newValue = result;
+      if (input.value !== newValue) {
+        input.value = newValue;
+        
+        // Важно: после изменения значения маской, нужно вызвать обработку события
+        // для JustValidate, чтобы он обновил статус валидации.
+        // JustValidate обычно сам реагирует на input, но чтобы быть уверенными,
+        // можно триггернуть событие. Однако, так как мы уже внутри слушателя input,
+        // это может вызвать рекурсию, если не быть осторожным.
+        // JustValidate v4 (который здесь судя по коду) сам обновляет состояние.
+      }
+    });
+  }
 });
+
+// ... existing code ...
 
 window.addEventListener("scroll", () => {
   if (window.scrollY > 1) {

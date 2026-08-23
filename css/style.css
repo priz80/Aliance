@@ -1681,7 +1681,7 @@ li > a {
     display: flex;
     list-style: none;
     padding: 0;
-    gap: 4.75rem;
+    gap: 0;
     margin-bottom: 0;
   }
 

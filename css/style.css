@@ -1,33 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap");
 @import url("swiper-bundle.min.css");
+@import url("rezet.css");
 
-* {
+/* * {
   box-sizing: border-box;
 }
 
 html {
   font-size: 16px;
 }
-
-li,
+ */
+/* li,
 a,
 button,
 li > a {
   text-decoration: none;
   list-style: none;
-}
+} */
 
-p {
-  font-family: var(--font-family);
-font-weight: 400;
-font-size: 16px;
 
-/* line-height: 26px; */ 
-line-height: 160%;
-color: var(--txt2);
-}
-
-:root {
+/* :root {
   --txt: #292d33;
   --txt2: #828a99;
   --main: #5c8ee5;
@@ -37,32 +29,32 @@ color: var(--txt2);
   --sep-opacity: rgba(235, 235, 240, 0.2);
   --bg2: #f0f2f5;
   --sep2: #e4e4eb;
-}
+} */
 
-:root {
+/* :root {
   --font-family: "Noto Sans", sans-serif;
   --second-family: "Bebas Neue", sans-serif;
   --third-family: "Font Awesome 6 Pro", sans-serif;
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: "Bebas Neue";
   src: url("../fonts/BebasNeueBook.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-}
+} */
 
-.container {
+/* .container {
   max-width: 90rem;
   margin: auto;
-}
+} */
 
-body {
+/* body {
   font-family: "Noto Sans", sans-serif;
   margin: 0;
   padding: 0;
-}
+} */
 
 .mobile-menu {
   display: none;
@@ -254,9 +246,6 @@ body {
 
 .header-text {
   max-width: 45rem;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 160%;
   margin: 2.5rem 0 3rem;
   letter-spacing: 0.1px;
 }
@@ -306,9 +295,6 @@ body {
 }
 
 .header-features-text {
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 160%;
   margin-bottom: 0;
 }
 
@@ -372,11 +358,6 @@ body {
 }
 
 .steps-text {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 160%;
-  color: var(--txt2);
   margin-top: 0.625rem;
   margin-bottom: 1.4375rem;
   max-width: 18.625rem;
@@ -477,9 +458,6 @@ body {
 }
 
 .card-text {
-  font-size: 1rem;
-  line-height: 160%;
-  color: var(--txt2);
   margin-bottom: 24.625rem;
 }
 
@@ -532,18 +510,11 @@ body {
 .trademark-card-text {
   grid-area: text;
   font-style: normal;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 160%;
-  color: var(--txt2);
   margin-top: 0.625rem;
 }
 
 .advant-features-text {
-  font-family: var(--font-family);
-  font-weight: 400;
   font-size: 0.875rem;
-  line-height: 160%;
   color: var(--txt);
 }
 
@@ -580,13 +551,6 @@ body {
   max-width: 100%;
 }
 
-.prodact-text {
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 160%;
-  color: var(--txt2);
-}
-
 .prodact-list {
   padding: 0;
   columns: 2 auto;
@@ -614,14 +578,6 @@ body {
   font-size: 1.75rem;
   line-height: 160%;
   color: var(--txt);
-}
-
-.seo-text {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 160%;
-  color: var(--txt2);
 }
 
 .error {
@@ -668,14 +624,6 @@ body {
   margin-bottom: 9.375rem;
 }
 
-.policy-text {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 160%;
-  color: var(--txt2);
-}
-
 .founder {
   margin-top: 6.25rem;
   position: relative;
@@ -700,13 +648,6 @@ body {
 .founder-content-wrapper {
   display: flex;
   justify-content: flex-end;
-}
-
-.founder-text {
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 160%;
-  color: var(--txt2);
 }
 
 .clients-wrapper {
@@ -848,9 +789,9 @@ body {
 }
 
 .cta-form-text {
-  font-size: 1rem;
+  /* font-size: 1rem;
   line-height: 160%;
-  color: var(--txt2);
+  color: var(--txt2); */
   margin-top: 1.375rem;
   margin-bottom: 2.5rem;
   max-width: 40rem;
@@ -962,7 +903,7 @@ body {
   margin: 0;
   font-size: 0.75rem;
   line-height: 160%;
-  color: var(--txt2);
+  /* color: var(--txt2); */
 }
 
 .footer-top {
@@ -1651,9 +1592,9 @@ body {
     line-height: 126%;
   }
 
-  .header-text {
+  /* .header-text {
     margin: 1.3rem 0 2.7rem;
-  }
+  } */
 
   .header-content {
     padding-top: 3.1rem;

@@ -10,18 +10,18 @@
 
     <div class="swiper center-slider">
         <div class="swiper-wrapper center-wrapper">
-            <div class="swiper-slide center-slide"><img src="./img/slide-research_1.png" alt="" class="center-card-image" /></div>
-            <div class="swiper-slide center-slide"><img src="./img/slide-research_2.png" alt="" class="center-card-image" /></div>
-            <div class="swiper-slide center-slide"><img src="./img/slide-research_1.png" alt="" class="center-card-image" /></div>
-            <div class="swiper-slide center-slide"><img src="./img/slide-research_2.png" alt="" class="center-card-image" /></div>
-            <div class="swiper-slide center-slide"><img src="./img/slide-research_1.png" alt="" class="center-card-image" /></div>
-            <div class="swiper-slide center-slide"><img src="./img/slide-research_2.png" alt="" class="center-card-image" /></div>
-            <div class="swiper-slide center-slide"><img src="./img/slide-research_1.png" alt="" class="center-card-image" /></div>
-            <div class="swiper-slide center-slide"><img src="./img/slide-research_2.png" alt="" class="center-card-image" /></div>
-            <div class="swiper-slide center-slide"><img src="./img/slide-research_1.png" alt="" class="center-card-image" /></div>
-            <div class="swiper-slide center-slide"><img src="./img/slide-research_2.png" alt="" class="center-card-image" /></div>
-            <div class="swiper-slide center-slide"><img src="./img/slide-research_1.png" alt="" class="center-card-image" /></div>
-            <div class="swiper-slide center-slide"><img src="./img/slide-research_2.png" alt="" class="center-card-image" /></div>
+            <div class="swiper-slide center-slide center-slide-img_1"></div>
+            <div class="swiper-slide center-slide center-slide-img_2"></div>
+            <div class="swiper-slide center-slide center-slide-img_1"></div>
+            <div class="swiper-slide center-slide center-slide-img_2"></div>
+            <div class="swiper-slide center-slide center-slide-img_1"></div>
+            <div class="swiper-slide center-slide center-slide-img_2"></div>
+            <div class="swiper-slide center-slide center-slide-img_1"></div>
+            <div class="swiper-slide center-slide center-slide-img_2"></div>
+            <div class="swiper-slide center-slide center-slide-img_1"></div>
+            <div class="swiper-slide center-slide center-slide-img_2"></div>
+            <div class="swiper-slide center-slide center-slide-img_1"></div>
+            <div class="swiper-slide center-slide center-slide-img_2"></div>   
         </div>
     </div>
 

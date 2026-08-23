@@ -772,6 +772,10 @@ li > a {
   background: var(--bg2);
 }
 
+.cta {
+  margin-top: 150px;
+}
+
 .section-cta {
   position: relative;
   padding-top: 6.25rem;
@@ -1185,6 +1189,10 @@ li > a {
   background-image: url("/img/slide-research_2.png");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.map-container {
+  margin-bottom: 9.375rem;
 }
 
 @media (max-width: 1780px) {

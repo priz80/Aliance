@@ -1,60 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap"); */
 @import url("swiper-bundle.min.css");
 @import url("rezet.css");
 
-/* * {
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 16px;
-}
- */
-/* li,
-a,
-button,
-li > a {
-  text-decoration: none;
-  list-style: none;
-} */
-
-
-/* :root {
-  --txt: #292d33;
-  --txt2: #828a99;
-  --main: #5c8ee5;
-  --sep: #ebebf0;
-  --white: #fff;
-  --bg: #fafbfc;
-  --sep-opacity: rgba(235, 235, 240, 0.2);
-  --bg2: #f0f2f5;
-  --sep2: #e4e4eb;
-} */
-
-/* :root {
-  --font-family: "Noto Sans", sans-serif;
-  --second-family: "Bebas Neue", sans-serif;
-  --third-family: "Font Awesome 6 Pro", sans-serif;
-} */
-
-/* @font-face {
-  font-family: "Bebas Neue";
-  src: url("../fonts/BebasNeueBook.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-} */
-
-/* .container {
-  max-width: 90rem;
-  margin: auto;
-} */
-
-/* body {
-  font-family: "Noto Sans", sans-serif;
-  margin: 0;
-  padding: 0;
-} */
 
 .mobile-menu {
   display: none;

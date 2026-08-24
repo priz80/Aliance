@@ -21,7 +21,7 @@
               id="user-name"
               placeholder=" "
               name="username" >
-            <label class="input-group-label" for="user-name" for="user-name">Имя</label>
+            <label class="input-group-label" for="user-name">Имя</label>
           </div>
           <div class="input-group">
             <input
@@ -30,7 +30,7 @@
               id="user-phone"
               placeholder=" "
               name="userphone" >
-            <label class="input-group-label" for="user-phone" name="userphone" for="user-phone">Номер телефона</label>
+            <label class="input-group-label" for="user-phone" name="userphone">Номер телефона</label>
           </div>
         </div>
         <div class="cta-form-footer">

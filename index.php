@@ -184,7 +184,7 @@
       <svg class="phone-svg">
         <use xlink:href="img/sprite.svg#phone"></use>
       </svg>
-      <a href="tel: +74996861014" class="header-phone-link">+7 (499) 686-10-14</a>
+      <a href="tel:+74996861014" class="header-phone-link">+7 (499) 686-10-14</a>
     </div>
     <button class="navbar-button button" data-toggle="modal" data-target="#feedback-modal">
       <svg class="phone-svg button-icon">

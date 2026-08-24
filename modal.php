@@ -1,6 +1,6 @@
       <div class="modal" id="feedback-modal">
         <div class="modal-dialog">
-          <h2 class="modal-title">Есть вопросы?</h2>
+          <h1 class="modal-title">Есть вопросы?</h1>
 
           <a href="#" class="modal-close" data-toggle="modal" data-target="#feedback-modal">
             <svg class="close-icon" width="24" height="24">

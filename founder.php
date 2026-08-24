@@ -23,7 +23,7 @@
             забывать, что выбранный нами инновационный путь в значительной
             степени обусловливает важность дальнейших направлений развития.
           </p>
-          <a href="" class="button-link" data-toggle="modal">Подробнее о компании</a>
+          <a href="" class="button-link" data-toggle="modal" data-target="#feedback-modal">Подробнее о компании</a>
         </div>
       </div>
     </div>

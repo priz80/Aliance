@@ -15,11 +15,11 @@
 
             <div class="input-group-wrapper input-group-vertical">
               <div class="input-group modal-input-group">
-                <input type="text" class="input modal-input" id="modal-user-name" name="username" placeholder=" " maxlength="30" required />
+                <input type="text" class="input modal-input" id="modal-user-name" name="username" placeholder=" " maxlength="30" required >
                 <label class="input-group-label modal-input-label" for="modal-user-name">Имя</label>
               </div>
               <div class="input-group modal-input-group">
-                <input type="tel" class="input phone-mask modal-input" id="modal-user-phone" name="userphone" placeholder=" " maxlength="18" required />
+                <input type="tel" class="input phone-mask modal-input" id="modal-user-phone" name="userphone" placeholder=" " maxlength="18" required >
                 <label class="input-group-label modal-input-label" for="modal-user-phone">Номер телефона</label>
               </div>
             </div>

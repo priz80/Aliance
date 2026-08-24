@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!--     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
-  <link rel="stylesheet" href="./css/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--     <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin > -->
+  <link rel="stylesheet" href="./css/style.css">
 
   <script>
     /*! modernizr 3.6.0 (Custom Build) | MIT *
@@ -339,7 +339,7 @@
         <div class="swiper-wrapper">
           <!-- Slides -->
           <a href="#" class="swiper-slide blog-card">
-            <img src="./img/blog-photo.jpg" alt="" class="blog-card-image" />
+            <img src="./img/blog-photo.jpg" alt="" class="blog-card-image" >
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -350,7 +350,7 @@
             </p>
           </a>
           <a href="#" class="swiper-slide blog-card">
-            <img src="./img/blog-post.jpg" alt="" class="blog-card-image" />
+            <img src="./img/blog-post.jpg" alt="" class="blog-card-image" >
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -361,7 +361,7 @@
             </p>
           </a>
           <a href="#" class="swiper-slide blog-card">
-            <img src="./img/blog-photo.jpg" alt="" class="blog-card-image" />
+            <img src="./img/blog-photo.jpg" alt="" class="blog-card-image" >
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>

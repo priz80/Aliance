@@ -10,19 +10,19 @@
           <a href="avtohim.php" class="mobile-submenu-link">Автомобильная химия</a>
         </li>
         <li class="mobile-submenu-item">
-          <a href="/" class="mobile-submenu-link">Бытовая химия</a>
+          <a href="template.php" class="mobile-submenu-link">Бытовая химия</a>
         </li>
         <li class="mobile-submenu-item">
-          <a href="/" class="mobile-submenu-link">Дезинфицирующие средства</a>
+          <a href="template.php" class="mobile-submenu-link">Дезинфицирующие средства</a>
         </li>
         <li class="mobile-submenu-item">
-          <a href="/" class="mobile-submenu-link">Пищевые аэрозоли</a>
+          <a href="template.php" class="mobile-submenu-link">Пищевые аэрозоли</a>
         </li>
         <li class="mobile-submenu-item">
-          <a href="/" class="mobile-submenu-link">Косметическая продукция</a>
+          <a href="template.php" class="mobile-submenu-link">Косметическая продукция</a>
         </li>
         <li class="mobile-submenu-item">
-          <a href="/" class="mobile-submenu-link">Краски аэрозольные</a>
+          <a href="template.php" class="mobile-submenu-link">Краски аэрозольные</a>
         </li>
       </ul>
     </li>
@@ -30,7 +30,7 @@
       <a href="own_product.php" class="mobile-menu-link">Собственные торговые марки</a>
     </li>
     <li class="mobile-menu-nav-item">
-      <a href="/" class="mobile-menu-link">Новости</a>
+      <a href="news.php" class="mobile-menu-link">Новости</a>
     </li>
     <li class="mobile-menu-nav-item">
       <a href="contact.php" class="mobile-menu-link">Контакты</a>

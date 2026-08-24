@@ -20,7 +20,7 @@
           alt="Автомобильная химия"
           class="card-image" />
       </a>
-      <a href="#" class="card">
+      <a href="template.php" class="card">
         <div class="card-content">
           <h3 class="card-title">Бытовая химия</h3>
           <p class="card-text">
@@ -33,7 +33,7 @@
           alt="Бытовая химия<"
           class="card-image" />
       </a>
-      <a href="#" class="card">
+      <a href="template.php" class="card">
         <div class="card-content">
           <h3 class="card-title">Дезинфицирующие средства</h3>
           <p class="card-text">
@@ -45,7 +45,7 @@
           alt="Дезинфицирующие средства"
           class="card-image" />
       </a>
-      <a href="#" class="card">
+      <a href="template.php" class="card">
         <div class="card-content">
           <h3 class="card-title">Пищевые аэрозоли</h3>
           <p class="card-text">
@@ -58,7 +58,7 @@
           alt="Пищевые аэрозоли"
           class="card-image" />
       </a>
-      <a href="#" class="card">
+      <a href="template.php" class="card">
         <div class="card-content">
           <h3 class="card-title">Косметическая продукция</h3>
           <p class="card-text">
@@ -70,7 +70,7 @@
           alt="Косметическая продукция"
           class="card-image" />
       </a>
-      <a href="#" class="card">
+      <a href="template.php" class="card">
         <div class="card-content">
           <h3 class="card-title">Краски аэрозольные</h3>
           <p class="card-text">

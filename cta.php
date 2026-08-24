@@ -30,7 +30,7 @@
               id="user-phone"
               placeholder=" "
               name="userphone" >
-            <label class="input-group-label" for="user-phone" name="userphone">Номер телефона</label>
+            <label class="input-group-label" for="user-phone">Номер телефона</label>
           </div>
         </div>
         <div class="cta-form-footer">

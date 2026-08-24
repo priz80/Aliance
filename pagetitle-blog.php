@@ -18,7 +18,5 @@
             <a href="index.php">Главная</a>
             <span class="dash-blog">-</span>
             <p><?php echo $page_title; ?></p>
-          </div>
-
       </div>
     </section>

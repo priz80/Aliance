@@ -18,7 +18,7 @@
         <img
           src="./img/avto-him.png"
           alt="Автомобильная химия"
-          class="card-image" />
+          class="card-image" >
       </a>
       <a href="template.php" class="card">
         <div class="card-content">
@@ -31,7 +31,7 @@
         <img
           src="./img/bit-him.png"
           alt="Бытовая химия<"
-          class="card-image" />
+          class="card-image" >
       </a>
       <a href="template.php" class="card">
         <div class="card-content">
@@ -43,7 +43,7 @@
         <img
           src="./img/dezinfect.png"
           alt="Дезинфицирующие средства"
-          class="card-image" />
+          class="card-image" >
       </a>
       <a href="template.php" class="card">
         <div class="card-content">
@@ -56,7 +56,7 @@
         <img
           src="./img/dezinfect.png"
           alt="Пищевые аэрозоли"
-          class="card-image" />
+          class="card-image" >
       </a>
       <a href="template.php" class="card">
         <div class="card-content">
@@ -68,7 +68,7 @@
         <img
           src="./img/avto-him.png"
           alt="Косметическая продукция"
-          class="card-image" />
+          class="card-image" >
       </a>
       <a href="template.php" class="card">
         <div class="card-content">
@@ -81,7 +81,7 @@
         <img
           src="./img/bit-him.png"
           alt="Краски аэрозольные"
-          class="card-image" />
+          class="card-image" >
       </a>
     </div>
   </div>

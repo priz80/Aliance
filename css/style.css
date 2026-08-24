@@ -974,8 +974,8 @@ li > a {
 }
 
 .footer-seporator {
-  color: var(--sep);
-  background-color: var(--sep);
+  width: 100%;
+  border: .0625rem solid var(--sep);
 }
 
 .footer-bottom {

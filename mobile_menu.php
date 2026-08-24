@@ -38,7 +38,7 @@
   </ul>
   <a href="tel:+74996861014" class="mobile-phone">+7 (499) 686-10-14</a>
   <div class="mobile-info">
-    <svg class="phone-svg" width="24" hight="24">
+    <svg class="phone-svg" width="24" height="24">
       <use xlink:href="img/sprite.svg#mark"></use>
     </svg>
     <address class="mobile-info-address">
@@ -46,19 +46,19 @@
     </address>
   </div>
   <div class="mobile-info">
-    <svg class="phone-svg" width="24" hight="24">
+    <svg class="phone-svg" width="24" height="24">
       <use xlink:href="img/sprite.svg#mail"></use>
     </svg>
     <a href="mailto:a.dragunov@tdaliance.ru" class="mobile-info-email">a.dragunov@tdaliance.ru</a>
   </div>
   <div class="social-icons">
     <a href="#">
-      <svg class="phone-svg" width="24" hight="24">
+      <svg class="phone-svg" width="24" height="24">
         <use xlink:href="img/sprite.svg#vk"></use>
       </svg>
     </a>
     <a href="#">
-      <svg class="phone-svg" width="24" hight="24">
+      <svg class="phone-svg" width="24" height="24">
         <use xlink:href="img/sprite.svg#inst"></use>
       </svg>
     </a>

@@ -20,7 +20,7 @@
               class="input"
               id="user-name"
               placeholder=" "
-              name="username" />
+              name="username" >
             <label class="input-group-label" for="user-name" for="user-name">Имя</label>
           </div>
           <div class="input-group">
@@ -29,7 +29,7 @@
               class="input phone-mask"
               id="user-phone"
               placeholder=" "
-              name="userphone" />
+              name="userphone" >
             <label class="input-group-label" for="user-phone" name="userphone" for="user-phone">Номер телефона</label>
           </div>
         </div>

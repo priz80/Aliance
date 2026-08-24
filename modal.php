@@ -54,7 +54,7 @@
           </a>
 
           <p class="modal-text">Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!</p>
-          <a href="index.php"><button type="submit" class="button modal-form-button">Вернуться на главную</button></a>
+          <a href="index.php" class="button modal-form-button">Вернуться на главную</a>
         </div>
 
       </div>

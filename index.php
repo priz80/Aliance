@@ -155,7 +155,7 @@
       <div class="mobile-menu-line"></div>
       <div class="mobile-menu-line"></div>
     </a>
-    <a href="#" class="header-logo">
+    <a href="/" class="header-logo">
       <svg class="logo-svg logo-light">
         <use xlink:href="img/sprite.svg#logo-light"></use>
       </svg>
@@ -174,7 +174,7 @@
         <a href="own_product.php" class="header-nav-link">Собственные торговые марки</a>
       </li>
       <li class="header-nav-item">
-        <a href="/" class="header-nav-link">Новости</a>
+        <a href="news.php" class="header-nav-link">Новости</a>
       </li>
       <li class="header-nav-item">
         <a href="contact.php" class="header-nav-link">Контакты</a>

@@ -8,7 +8,7 @@
       </a>
       <a href="tel:+74996861014" class="footer-phone">+7 (499) 686-10-14</a>
       <div class="footer-info">
-        <svg class="phone-svg" width="24" hight="24">
+        <svg class="phone-svg" width="24" height="24">
           <use xlink:href="img/sprite.svg#mark"></use>
         </svg>
         <address class="footer-info-address">
@@ -16,7 +16,7 @@
         </address>
       </div>
       <div class="footer-info">
-        <svg class="mail-svg" width="24" hight="24">
+        <svg class="mail-svg" width="24" height="24">
           <use xlink:href="img/sprite.svg#mail"></use>
         </svg>
         <a href="mailto:a.dragunov@tdaliance.ru" class="footer-info-email">a.dragunov@tdaliance.ru</a>

@@ -17,7 +17,7 @@
       <div class="container page-title-container">
         <div class="page-title-info">
           <div class="seporator"></div>
-          <h1 class="page-title-chapter"><?php echo $page_title; ?></h1>
+          <h2 class="page-title-chapter"><?php echo $page_title; ?></h2>
           <div class="breadcrumbs">
             <a href="index.php" class="breadcrumb-page-link">Главная</a>
             <span class="dash">-</span>

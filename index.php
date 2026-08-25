@@ -338,8 +338,8 @@
 
         <div class="swiper-wrapper">
           <!-- Slides -->
-          <a href="#" class="swiper-slide blog-card">
-            <img src="./img/blog-photo.jpg" alt="" class="blog-card-image" >
+          <a href="blog.php" class="swiper-slide blog-card image-post">
+            <!-- <img src="./img/blog-photo.jpg" alt="" class="blog-card-image" > -->
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -349,8 +349,8 @@
               предоставлены...
             </p>
           </a>
-          <a href="#" class="swiper-slide blog-card">
-            <img src="./img/blog-post.jpg" alt="" class="blog-card-image" >
+          <a href="blog.php" class="swiper-slide blog-card image-photo">
+            <!-- <img src="./img/blog-post.jpg" alt="" class="blog-card-image" > -->
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -360,8 +360,8 @@
               высокотехнологичная...
             </p>
           </a>
-          <a href="#" class="swiper-slide blog-card">
-            <img src="./img/blog-photo.jpg" alt="" class="blog-card-image" >
+          <a href="blog.php" class="swiper-slide blog-card image-post">
+            <!-- <img src="./img/blog-photo.jpg" alt="" class="blog-card-image" > -->
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>

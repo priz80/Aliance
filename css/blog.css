@@ -1,0 +1,136 @@
+/* Стили для каталога */
+.catalog-section {
+    padding: 40px 0;
+}
+
+.catalog-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: var(--second-family);
+    font-size: 3rem;
+    color: var(--txt);
+}
+
+/* Сетка каталога: 2 колонки */
+.catalog-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px; /* Расстояние между блоками */
+    margin-bottom: 40px;
+}
+
+/* Стили самого блока */
+.catalog-item {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid var(--sep);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.catalog-item:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transform: translateY(-5px);
+}
+
+.catalog-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.catalog-item-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.catalog-item-content h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+}
+
+.catalog-item-content h3 a {
+    text-decoration: none;
+    color: var(--txt);
+    transition: color 0.2s;
+}
+
+.catalog-item-content h3 a:hover {
+    color: var(--main);
+}
+
+.catalog-item-content p {
+    font-size: 0.9rem;
+    color: var(--txt2);
+    margin-bottom: 20px;
+    flex-grow: 1; /* Чтобы кнопки были на одном уровне, если тексты разной длины */
+}
+
+.btn-read-more {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--main);
+    font-weight: 600;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+}
+
+.btn-read-more:hover {
+    border-color: var(--main);
+}
+
+/* Стили пагинации (если их еще нет в blog.css, лучше вынести туда, но здесь для контекста) */
+.pagination {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.page-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40px;
+    height: 40px;
+    padding: 0 10px;
+    text-decoration: none;
+    color: var(--txt);
+    border: 1px solid var(--sep);
+    border-radius: 4px;
+    transition: all 0.2s;
+}
+
+.page-number:hover {
+    border-color: var(--main);
+    color: var(--main);
+}
+
+.page-number.active {
+    background-color: var(--main);
+    color: #fff;
+    border-color: var(--main);
+}
+
+.prev-page, .next-page {
+    text-decoration: none;
+    color: var(--main);
+    font-weight: 600;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+/* Адаптивность: на мобильных - 1 колонка */
+@media (max-width: 768px) {
+    .catalog-grid {
+        grid-template-columns: 1fr;
+    }
+}

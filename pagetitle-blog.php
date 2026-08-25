@@ -14,9 +14,15 @@
   </head>
   <body>
     <section class="page-title <?php echo $header_style; ?>">
-      <div class="container blog-title-container breadcrumbs-blog-link">
-            <a href="index.php">Главная</a>
+      <div class="container page-title-container">
+        <div class="page-title-info">
+          <!-- <div class="seporator"></div> -->
+          <!-- <h2 class="page-title-chapter chapter-blog"><?php echo $page_title; ?></h2> -->
+          <div class="breadcrumbs">
+            <a href="index.php" class="breadcrumb-blog-link">Главная</a>
             <span class="dash-blog">-</span>
-            <p><?php echo $page_title; ?></p>
+            <p class="breadcrumbs-chapter-blog"><?php echo $page_title; ?></p>
+          </div>
+        </div>
       </div>
     </section>

@@ -35,7 +35,6 @@ http_response_code(404);
       <p>
         Мы не смогли найти страницу с таким адресом, попробуйте перейти на главную или напишите нам.
       </p>
-      <!-- <a href="index.php"><button type="submit" class="button modal-form-button error-button">Вернуться на главную</button></a> -->
         <a href="index.php" class="button modal-form-button error-button">
         Вернуться на главную
       </a>

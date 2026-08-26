@@ -6,16 +6,13 @@ include_once('page-title.php');
 // --- Начало логики каталога ---
 
 // 1. Конфигурация пагинации
-// Вы просили: два блока в ряд, максимум пять рядов.
-// Итого на странице: 2 * 5 = 10 блоков.
 $items_per_page = 10; 
 
 $current_page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
 if ($current_page < 1) $current_page = 1;
 
-// 2. Генерация тестовых данных (В реальности замените на запрос к БД)
+// 2. Генерация тестовых данных
 $all_items = [];
-// Увеличим количество тестовых данных для демонстрации пагинации
 for ($i = 1; $i <= 50; $i++) { 
     $all_items[] = [
         'id' => $i,
@@ -28,11 +25,7 @@ for ($i = 1; $i <= 50; $i++) {
 
 $total_items = count($all_items);
 $total_pages = ceil($total_items / $items_per_page);
-
-// 3. Вычисляем начальный индекс
 $start_index = ($current_page - 1) * $items_per_page;
-
-// 4. Получаем срез данных
 $current_items = array_slice($all_items, $start_index, $items_per_page);
 
 // --- Конец логики каталога ---
@@ -40,16 +33,29 @@ $current_items = array_slice($all_items, $start_index, $items_per_page);
 // Вывод каталога
 echo '<section class="catalog-section">';
 echo '<div class="container">';
-/* echo '<h2 class="catalog-title">Каталог</h2>'; */
 
-// Обертка для сетки и пагинации, чтобы они были в одной линии
 echo '<div class="catalog-wrap">';
 echo '<div class="catalog-grid">';
 
 if (!empty($current_items)) {
-    foreach ($current_items as $item) {
+    // Используем list($index, $item) чтобы получить ключ (индекс) внутри цикла
+    foreach ($current_items as $index => $item) {
+        
+        // Определяем путь к картинке в зависимости от четности индекса
+        // Если индекс четный (0, 2, 4...) - blog-photo.jpg
+        // Если индекс нечетный (1, 3, 5...) - blog-post.jpg
+        $bg_image = ($index % 2 === 0) ? './img/blog-photo.jpg' : './img/blog-post.jpg';
+        
+        // Добавляем класс для стилизации (опционально, если нужно различать их в CSS)
+        $image_class = ($index % 2 === 0) ? 'bg-type-1' : 'bg-type-2';
+
         echo '<div class="catalog-item">';
-        echo '<img src="' . htmlspecialchars($item['image']) . '" alt="' . htmlspecialchars($item['title']) . '">';
+        
+        // Вставляем картинку. 
+
+        
+        echo '<img src="' . htmlspecialchars($bg_image) . '" alt="' . htmlspecialchars($item['title']) . '" class="blog-card-image ' . $image_class . '">';
+        
         echo '<div class="catalog-item-content">';
         echo '<h3><a href="' . htmlspecialchars($item['link']) . '">' . htmlspecialchars($item['title']) . '</a></h3>';
         echo '<p>' . htmlspecialchars($item['excerpt']) . '</p>';
@@ -61,26 +67,24 @@ if (!empty($current_items)) {
     echo '<p>Записи не найдены.</p>';
 }
 
-echo '</div>'; // Закрытие catalog-grid
+echo '</div>'; // catalog-grid
 
 // Пагинация
 if ($total_pages > 1) {
     echo '<div class="pagination">';
-    // Номера страниц
     for ($i = 1; $i <= $total_pages; $i++) {
         $active_class = ($i == $current_page) ? 'active' : '';
         if ($i == $current_page) {
-            // Небольшое отступаем друг от друга для эффекта "квадратиков"
             echo '<span class="pagination-link page-number ' . $active_class . '">' . $i . '</span>';
         } else {
             echo '<a href="?page=' . $i . '" class="pagination-link page-number ' . $active_class . '">' . $i . '</a>';
         }
     }
-    echo '</div>'; // Закрытие pagination
+    echo '</div>'; 
 }
 
-echo '</div>'; // Закрытие catalog-wrap
-echo '</div>'; // Закрытие container
+echo '</div>'; // catalog-wrap
+echo '</div>'; // container
 echo '</section>';
 
 include_once('modal.php');

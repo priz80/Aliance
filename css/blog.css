@@ -1,4 +1,3 @@
-/* Стили для каталога */
 .catalog-section {
   padding: 40px 0;
 }
@@ -11,28 +10,23 @@
   color: var(--txt);
 }
 
-/* Сетка каталога: 2 колонки */
 .catalog-grid {
   display: grid;
   justify-items: center;
   grid-template-columns: repeat(2, 1fr);
-  gap: 30px; /* Расстояние между блоками */
+  gap: 30px;
   margin-bottom: 40px;
 }
 
-/* Стили самого блока */
-.catalog-item {
+.catalog-item,
+.catalog-item-link {
   position: relative;
   display: flex;
-  flex-direction: column;
-  background: #fff;
-  border: 1px solid var(--sep);
-  border-radius: 8px;
-  overflow: hidden;
+  align-items: flex-end;
   transition:
     box-shadow 0.3s ease,
     transform 0.3s ease;
-    width: 100%;
+  width: 100%;
   max-width: 705px;
   height: 400px;
 }
@@ -43,21 +37,14 @@
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ключевое свойство: картинка заполняет блок, обрезаясь по краям */
-  z-index: 0; /* Картинка на заднем плане */
+  object-fit: cover;
+  z-index: 0;
 }
 
 .catalog-item:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   transform: translateY(-5px);
 }
-
-/* .catalog-item img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    display: block;
-} */
 
 .catalog-item-content {
   padding: 20px;
@@ -68,26 +55,22 @@
 }
 
 .catalog-item-content h3 {
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-size: 1.25rem;
-}
-
-.catalog-item-content h3 a {
-  text-decoration: none;
-  color: var(--txt);
-  transition: color 0.2s;
-}
-
-.catalog-item-content h3 a:hover {
-  color: var(--main);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 160%;
+  color: var(--white);
+  margin: 0;
 }
 
 .catalog-item-content p {
-  font-size: 0.9rem;
-  color: var(--txt2);
-  margin-bottom: 20px;
-  flex-grow: 1; /* Чтобы кнопки были на одном уровне, если тексты разной длины */
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: var(--white);
+  flex-grow: 1;
+  margin: 0;
 }
 
 .btn-read-more {
@@ -103,7 +86,6 @@
   border-color: var(--main);
 }
 
-/* Стили пагинации (если их еще нет в blog.css, лучше вынести туда, но здесь для контекста) */
 .pagination {
   display: flex;
   justify-content: right;
@@ -147,26 +129,96 @@
   align-items: center;
 }
 
-/* Адаптивность: на мобильных - 1 колонка */
+.news-content {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  /* gap: 20px; */
+}
+
+.news-column {
+  grid-column: span 8;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.news-title h2 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 2.25rem;
+  line-height: 160%;
+  color: var(--txt);
+}
+.news-title h3 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 160%;
+  color: var(--txt);
+}
+.news-title h4 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 160%;
+  color: var(--txt);
+}
+
+.social-icons {
+  display: flex;
+  grid-auto-flow: column;
+  grid-column: span 4;
+  margin-top: 1.6875rem;
+  gap: 10px;
+  max-height: 1.5rem;
+}
+
+.news-img {
+  width: 100%;
+}
+
+.share {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  display: none;
+}
+
+.share-item {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 160%;
+  color: var(--txt2);
+}
+
+.news-page-link {
+  visibility: hidden;
+}
+
+
+
+
 @media (max-width: 768px) {
   .catalog-grid {
     grid-template-columns: 1fr;
   }
+
+  .social-icons {
+    display: none;
+  }
+
+  .share {
+    display: flex;
+  }
+
+  .news-column {
+    grid-column: span 12;
+  }
 }
 @media (max-width: 576px) {
-
   .catalog-item {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    background: #fff;
-    border: 1px solid var(--sep);
-    border-radius: 8px;
-    overflow: hidden;
-    transition:
-      box-shadow 0.3s ease,
-      transform 0.3s ease;
-      width: 100%;
     max-width: 345px;
     height: 195px;
   }

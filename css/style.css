@@ -396,12 +396,12 @@ li > a {
   width: 60px;
 }
 
-.social-icons {
+/* .social-icons {
   display: flex;
   margin-top: 1.5rem;
   gap: 1rem;
   margin-bottom: 3rem;
-}
+} */
 
 .steps-buttons {
   display: none;
@@ -739,16 +739,6 @@ li > a {
   z-index: -1;
 }
 
-/* .blog-card-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -2;
-} */
-
 .image-photo {
   background-image: url(/img/blog-photo.jpg);
   background-repeat: no-repeat;
@@ -815,9 +805,6 @@ li > a {
 }
 
 .cta-form-text {
-  /* font-size: 1rem;
-  line-height: 160%;
-  color: var(--txt2); */
   margin-top: 1.375rem;
   margin-bottom: 2.5rem;
   max-width: 40rem;
@@ -929,7 +916,6 @@ li > a {
   margin: 0;
   font-size: 0.75rem;
   line-height: 160%;
-  /* color: var(--txt2); */
 }
 
 .footer-top {
@@ -1793,8 +1779,6 @@ li > a {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 14px;
-
-  /* line-height: 22px; */
   line-height: 160%;
   color: var(--white);
 }
@@ -1814,10 +1798,6 @@ li > a {
   align-items: center;
   gap: 10px;
 }
-
-/* .breadcrumbs>a {
-  text-decoration: none;
-} */
 
 .breadcrumb-page-link {
   font-size: 0.875rem;
@@ -1898,14 +1878,6 @@ li > a {
   margin-top: -20px;
 }
 
-/* .chapter-blog {
-  font-family: var(--second-family);
-  font-weight: 400;
-  font-size: 5rem;
-  line-height: 120%;
-  color: var(--white);
-} */
-
 @media (max-width: 1780px) {
   .page-title-image {
     display: none;
@@ -1950,43 +1922,14 @@ li > a {
   }
 
   .blog-card {
-    /*   display: flex;
-    position: relative; */
     width: 21.5625rem;
     min-height: 12.1875rem;
-    /* flex-direction: column;
-    text-decoration: none;
-    color: #fff;
-    justify-content: flex-end; */
     padding: 1.25rem;
   }
 
-  /*  .blog-card::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: rgba(41, 45, 51, 0.6);
-    z-index: -1;
-  } */
-  /* 
-  .blog-card-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -2;
-  } */
 
   .blog-card-title {
     font-size: 1.25rem;
-    /* line-height: 160%;
-    color: var(--white); */
-    /* margin-bottom: 1.25rem; */
     margin: 0;
   }
 
@@ -1994,14 +1937,4 @@ li > a {
     display: none;
   }
 
-  .image-photo {
-    background-image: url(/img/blog-mphoto.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-  }
-  .image-post {
-    background-image: url(/img/blog-mpost.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-  }
 }

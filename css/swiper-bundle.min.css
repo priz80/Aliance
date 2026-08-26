@@ -36,7 +36,7 @@
 .swiper-wrapper {
   box-sizing: initial;
   display: flex;
-  height: 100%;
+  /* height: 100%; */
   position: relative;
   transition-property: transform;
   transition-timing-function: var(

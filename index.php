@@ -7,7 +7,15 @@
   <!--     <link rel="preconnect" href="https://fonts.googleapis.com" >
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin > -->
   <link rel="stylesheet" href="./css/style.css">
+<!-- Для современных браузеров и мобильных устройств -->
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon.svg">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon.svg">
 
+<!-- Для старых браузеров и если файл в корне -->
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+<!-- Для iPhone и iPad (App Icon) -->
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.svg">
   <script>
     /*! modernizr 3.6.0 (Custom Build) | MIT *
      * https://modernizr.com/download/?-webp-setclasses !*/

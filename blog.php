@@ -18,8 +18,7 @@ for ($i = 1; $i <= 50; $i++) {
         'id' => $i,
         'title' => "Заголовок записи №{$i}",
         'excerpt' => "Краткое описание для записи №{$i}.",
-        'image' => "https://via.placeholder.com/300x200?text=Image+{$i}",
-        'link' => "article.php?id={$i}"
+        'link' => "blog_more.php?id={$i}"
     ];
 }
 
@@ -44,24 +43,16 @@ if (!empty($current_items)) {
         // Определяем путь к картинке в зависимости от четности индекса
         // Если индекс четный (0, 2, 4...) - blog-photo.jpg
         // Если индекс нечетный (1, 3, 5...) - blog-post.jpg
-        $bg_image = ($index % 2 === 0) ? './img/blog-photo.jpg' : './img/blog-post.jpg';
-        
-        // Добавляем класс для стилизации (опционально, если нужно различать их в CSS)
-        $image_class = ($index % 2 === 0) ? 'bg-type-1' : 'bg-type-2';
-
-        echo '<div class="catalog-item">';
-        
-        // Вставляем картинку. 
-
-        
-        echo '<img src="' . htmlspecialchars($bg_image) . '" alt="' . htmlspecialchars($item['title']) . '" class="blog-card-image ' . $image_class . '">';
-        
-        echo '<div class="catalog-item-content">';
-        echo '<h3><a href="' . htmlspecialchars($item['link']) . '">' . htmlspecialchars($item['title']) . '</a></h3>';
-        echo '<p>' . htmlspecialchars($item['excerpt']) . '</p>';
-        echo '<a href="' . htmlspecialchars($item['link']) . '" class="btn-read-more">Подробнее</a>';
-        echo '</div>';
-        echo '</div>';
+        $bg_image = ($index % 2 === 0) ? './img/blog-post.jpg' : './img/blog-photo.jpg';
+        echo '<a href="' . htmlspecialchars($item['link']) . '" class="catalog-item-link">';
+            echo '<div class="catalog-item">';
+                echo '<img src="' . htmlspecialchars($bg_image) . '" alt="' . htmlspecialchars($item['title']) . '" class="blog-card-image">';
+                echo '<div class="catalog-item-content">';
+                    echo '<h3>' . htmlspecialchars($item['title']) . '</h3>';
+                    echo '<p>' . htmlspecialchars($item['excerpt']) . '</p>';
+                echo '</div>';
+            echo '</div>'; // catalog-item
+        echo '</a>'; // catalog-item-link
     }
 } else {
     echo '<p>Записи не найдены.</p>';

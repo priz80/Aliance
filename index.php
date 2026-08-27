@@ -213,7 +213,59 @@
         <button class="button header-button" data-toggle="modal" data-target="#feedback-modal">Подробнее о компании</button>
       </div>
 
-      <div class="swiper swiper-slider">
+      <!-- <div class="swiper swiper-slider">
+        <ul class="swiper-wrapper header-features">
+          <li class="swiper-slide header-features-item">
+            <svg width="36" height="36">
+              <use xlink:href="img/sprite.svg#time"></use>
+            </svg>
+            <p class="header-features-text">Непрерывная работа c 2017 года</p>
+          </li>
+          <li class="swiper-slide header-features-item">
+            <svg width="36" height="36">
+              <use xlink:href="img/sprite.svg#certificate"></use>
+            </svg>
+            <p class="header-features-text">Вся продукция сертифицирована</p>
+          </li>
+          <li class="swiper-slide header-features-item">
+            <svg width="36" height="36">
+              <use xlink:href="img/sprite.svg#control"></use>
+            </svg>
+            <p class="header-features-text">
+              Контроль качества на всех этапах
+            </p>
+          </li>
+          <li class="swiper-slide header-features-item">
+            <svg width="36" height="36">
+              <use xlink:href="img/sprite.svg#delivery"></use>
+            </svg>
+            <p class="header-features-text">
+              Возможны поставки по всей России
+            </p>
+          </li>
+          <li class="swiper-slide header-features-item">
+            <svg width="36" height="36">
+              <use xlink:href="img/sprite.svg#speed"></use>
+            </svg>
+            <p class="header-features-text">Оперативное производство</p>
+          </li>
+        </ul>
+
+        <div class="slider-buttons">
+          <div class="slider-button-prev">
+            <svg width="36" height="24">
+              <use xlink:href="img/sprite.svg#arrow-prev"></use>
+            </svg>
+          </div>
+          <div class="slider-button-next">
+            <svg width="36" height="24">
+              <use xlink:href="img/sprite.svg#arrow-next"></use>
+            </svg>
+          </div>
+        </div>
+      </div> -->
+    </div>
+    <div class="swiper swiper-slider">
         <ul class="swiper-wrapper header-features">
           <li class="swiper-slide header-features-item">
             <svg width="36" height="36">
@@ -264,7 +316,6 @@
           </div>
         </div>
       </div>
-    </div>
   </header>
 
   <section class="section section-light">
@@ -327,9 +378,7 @@
   include_once('./template/contract_product-block.php') ?>
   <?php $block_title = "Собственные торговые марки";
   include_once('./template/trademark-block.php') ?>
-
   <?php include_once('founder.php') ?>
-
   <?php include_once('clients.php') ?>
 
   <section class="section blog">

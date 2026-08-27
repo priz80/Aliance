@@ -673,6 +673,14 @@ li > a {
   height: 100%;
   object-fit: cover;
 }
+.founder-photo-avtohim {
+  position: absolute;
+  right: 0;
+  width: 40%;
+  top: 0;
+  height: 100%;
+  object-fit: cover;
+}
 
 .founder-content {
   max-width: 45rem;
@@ -682,6 +690,10 @@ li > a {
 .founder-content-wrapper {
   display: flex;
   justify-content: flex-end;
+}
+.avtohim-content-wrapper {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .founder-text {
@@ -1584,11 +1596,14 @@ li > a {
   .clients-wrapper {
     flex-direction: column;
   }
+
   .founder-photo {
     position: relative;
     width: 100%;
     margin-bottom: 3.125rem;
   }
+
+  
 
   .card {
     flex-basis: 100%;

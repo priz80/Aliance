@@ -1,7 +1,7 @@
     <?php
     $page_title = "Контрактное производство";
-    $header_style = "page-title-bg-gray";
-    include_once('page-title.php') ?>
+    $header_style = "page-header-bg-gray";
+    include_once('page-header.php') ?>
     <?php include_once('./template/contract_product-block.php') ?>
 
     <div class="container seo">

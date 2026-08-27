@@ -385,12 +385,12 @@
         <div class="blogslider-footer">
           <a href="blog.php" class="button-link">Весь блог</a>
           <div class="blog-buttons primary-buttons-wraper">
-            <div class="blog-button-prev primary-button-prev">
+            <div class="blog-button-prev primary-button-prev button-fill">
               <svg width="36" height="24">
                 <use xlink:href="img/sprite.svg#arrow-prev"></use>
               </svg>
             </div>
-            <div class="blog-button-next primary-button-next">
+            <div class="blog-button-next primary-button-next button-fill">
               <svg width="36" height="24">
                 <use xlink:href="img/sprite.svg#arrow-next"></use>
               </svg>

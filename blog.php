@@ -1,7 +1,7 @@
 <?php
 $page_title = "Блог";
-$header_style = "page-title-bg-gray";
-include_once('page-title.php');
+$header_style = "page-header-bg-gray";
+include_once('page-header.php');
 
 // --- Начало логики каталога ---
 

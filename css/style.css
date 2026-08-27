@@ -319,7 +319,7 @@ li > a {
 }
 
 .section-production {
-  margin-top: 4.125rem;
+  margin-bottom: 9.375rem;
 }
 
 .section-title {
@@ -483,7 +483,7 @@ li > a {
 }
 
 .section-trademark {
-  margin-top: 7rem;
+  margin-bottom: 9.375rem;
 }
 
 .trademark-cards {
@@ -660,9 +660,8 @@ li > a {
 }
 
 .founder {
-  margin-top: 6.25rem;
   position: relative;
-  min-height: 41.25rem;
+  /* min-height: 41.25rem; */
   margin-bottom: 9.375rem;
 }
 
@@ -1062,6 +1061,7 @@ li > a {
   color: var(--txt2);
   font-size: 0.75rem;
   margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
 }
 
 .footer-wrapper,
@@ -1810,6 +1810,7 @@ li > a {
 
 .page-header-bg-gray {
   background: var(--bg2);
+  margin-bottom: 9.375rem;
 }
 
 .blog-title-image {

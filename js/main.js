@@ -44,7 +44,6 @@ forms.forEach((form) => {
     errorFieldCssClass: "is-invalid",
   });
 
-
   validation
     .addField('[name="username"]', [
       {
@@ -72,7 +71,7 @@ forms.forEach((form) => {
         // Проверка minLength: 11 гарантирует, что пользователь ввел достаточно цифр
         // перед тем, как маска закончит формирование
         rule: "minLength",
-        value: 11, 
+        value: 11,
         errorMessage: "Номер телефона слишком короткий.",
       },
       {
@@ -156,7 +155,7 @@ forms.forEach((form) => {
     }
     /* в других случаях просто 7 (   */
     return "7 (";
-  }; 
+  };
 
   /* Применяем маску только к полю телефона, чтобы не конфликтовать с другими input */
   const phoneInput = document.querySelector('[name="userphone"]');
@@ -192,17 +191,15 @@ forms.forEach((form) => {
         }
         result += value[i];
       }
-      
+
       // Обновляем значение
       const newValue = result;
       if (input.value !== newValue) {
         input.value = newValue;
-        
       }
     });
   }
 });
-
 
 window.addEventListener("scroll", () => {
   if (window.scrollY > 1) {
@@ -262,7 +259,7 @@ const swiperObserver = new IntersectionObserver(
           script.onload = () => {
             new Swiper(".swiper-slider", {
               speed: 400,
-              slidesPerView: 1,
+              slidesPerView: 5,
               navigation: {
                 nextEl: ".slider-button-next",
                 prevEl: ".slider-button-prev",
@@ -273,8 +270,8 @@ const swiperObserver = new IntersectionObserver(
                 },
                 576: {
                   slidesPerView: 2,
-                  centeredSlides: true,
-                  slidesOffsetBefore: -170,
+                  /* centeredSlides: true, */
+                  /* slidesOffsetBefore: -170, */
                 },
 
                 820: {
@@ -415,7 +412,7 @@ const swiperObserver = new IntersectionObserver(
         } else {
           new Swiper(".swiper-slider", {
             speed: 400,
-            slidesPerView: 1,
+            slidesPerView: 5,
             navigation: {
               nextEl: ".slider-button-next",
               prevEl: ".slider-button-prev",
@@ -426,8 +423,8 @@ const swiperObserver = new IntersectionObserver(
               },
               576: {
                 slidesPerView: 2,
-                centeredSlides: true,
-                slidesOffsetBefore: -170,
+                /* centeredSlides: true,
+                slidesOffsetBefore: -170, */
               },
 
               820: {
@@ -444,7 +441,7 @@ const swiperObserver = new IntersectionObserver(
           });
           new Swiper(".steps-slider", {
             speed: 400,
-            slidesPerView: 4,
+            slidesPerView: 5,
             navigation: {
               nextEl: ".steps-button-next",
               prevEl: ".steps-button-prev",

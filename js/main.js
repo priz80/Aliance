@@ -258,6 +258,7 @@ const swiperObserver = new IntersectionObserver(
           script.src = "./js/swiper-bundle.min.js";
           script.onload = () => {
             new Swiper(".swiper-slider", {
+              loop: true,
               speed: 400,
               slidesPerView: 5,
               navigation: {
@@ -411,6 +412,7 @@ const swiperObserver = new IntersectionObserver(
           document.body.appendChild(script);
         } else {
           new Swiper(".swiper-slider", {
+            loop: true,
             speed: 400,
             slidesPerView: 5,
             navigation: {
@@ -423,8 +425,8 @@ const swiperObserver = new IntersectionObserver(
               },
               576: {
                 slidesPerView: 2,
-                /* centeredSlides: true,
-                slidesOffsetBefore: -170, */
+                /* centeredSlides: true, */
+                /* slidesOffsetBefore: -170, */
               },
 
               820: {

@@ -130,12 +130,12 @@ include_once('pagetitle-blog.php');
             <div class="blogslider-footer">
                 <a href="blog.php" class="button-link news-page-link">Весь блог</a>
                 <div class="blog-buttons primary-buttons-wraper">
-                    <div class="blog-button-prev primary-button-prev swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-disabled="true">
+                    <div class="button-fill blog-button-prev primary-button-prev swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-disabled="true">
                         <svg width="36" height="24">
                             <use xlink:href="img/sprite.svg#arrow-prev"></use>
                         </svg>
                     </div>
-                    <div class="blog-button-next primary-button-next" tabindex="0" role="button" aria-label="Next slide">
+                    <div class="button-fill blog-button-next primary-button-next" tabindex="0" role="button" aria-label="Next slide">
                         <svg width="36" height="24">
                             <use xlink:href="img/sprite.svg#arrow-next"></use>
                         </svg>

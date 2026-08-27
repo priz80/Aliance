@@ -1219,6 +1219,10 @@ li > a {
   margin-bottom: 9.375rem;
 }
 
+.ag-tech {
+  font-weight: 800;
+}
+
 @media (max-width: 1780px) {
   html {
     font-size: 13px;

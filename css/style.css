@@ -58,6 +58,7 @@ p {
   font-size: 1rem;
   line-height: 160%;
   color: var(--txt2);
+  margin: 0;
 }
 
 li,
@@ -430,6 +431,11 @@ li > a {
   justify-content: center;
 }
 
+.center-button-prev,
+.center-button-next {
+  fill: #fff;
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -679,6 +685,12 @@ li > a {
   justify-content: flex-end;
 }
 
+.founder-text {
+  columns: 2 auto;
+  column-gap: 6.25rem;
+  margin-bottom: 5rem;
+}
+
 .clients-wrapper {
   display: flex;
   gap: 3.125rem;
@@ -730,10 +742,11 @@ li > a {
   height: 70px;
 }
 
-.blog,
-.clients {
+/* .blog,
+.clients,
+.center {
   margin-top: 6.25rem;
-}
+} */
 
 .blog-card {
   display: flex;

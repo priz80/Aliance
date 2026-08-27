@@ -39,7 +39,7 @@
   <div class="container">
     <div class="footer-bottom">
       <div class="footer-menu-wrapper">
-        <h2 class="footer-menu-title">Контрактное производство</h2>
+        <a href="contract_product.php"><h2 class="footer-menu-title">Контрактное производство</h2></a>
         <ul class="footer-menu-list footer-menu-column-2">
           <li class="footer-menu-item">
             <a href="avtohim.php" class="footer-menu-link">Автомобильная химия</a>

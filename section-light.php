@@ -39,12 +39,12 @@
           </li>
         </ul>
         <div class="steps-buttons primary-buttons-wraper">
-          <div class="steps-button-prev primary-button-prev">
+          <div class="steps-button-prev primary-button-prev button-fill">
             <svg width="36" height="24">
               <use xlink:href="img/sprite.svg#arrow-prev"></use>
             </svg>
           </div>
-          <div class="steps-button-next primary-button-next">
+          <div class="steps-button-next primary-button-next button-fill">
             <svg width="36" height="24">
               <use xlink:href="img/sprite.svg#arrow-next"></use>
             </svg>

@@ -15,6 +15,7 @@
       // стили вывода изображения
       $image_visibility = " ";
       $image_mobile_visibility = "image-mobile_founder";
+    
 
       include_once('page-header.php');
       include_once('modal.php');
@@ -73,94 +74,3 @@
       <?php include_once('clients.php') ?>
       <?php include_once('cta.php') ?>
       <?php include_once('footer.php') ?>
-
-      <!-- <div class="container advant">
-      <div class="swiper advant-slider">
-        <ul class="swiper-wrapper header-features">
-          <li class="swiper-slide head
-            </svg>
-            <p class="advant-features-text">Непрерывная работа c 2017 года</p>
-          </li>
-          <li class="swiper-slide header-feat
-            </svg>
-            <p class="advant-features-text">Вся продукция сертифицирована</p>
-          </li>
-          <li class="swiper-slide header-
-            </svg>
-            <p class="advant-features-text">
-              Контроль качества на всех этапах
-            </p>
-          </li>
-          <li class="swiper-slide header-f
-            </svg>
-            <p class="advant-features-text">
-              Возможны поставки по всей России
-            </p>
-          </li>
-          <li class="swiper-slide heade
-            </svg>
-            <p class="advant-features-text">Оперативное производство</p>
-          </li>
-        </ul>
-
-        <div class="slider-buttons">
-          <div class="advant-button-p
-            </svg>
-          </div>
-          <div class="advant-button-n
-            </svg>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <section class="section founder">
-        <div class="container">
-            <div class="prodact-content-wrapper">
-                <div class="prodact-content">
-                    <div class="seporator"></div>
-                    <h2 class="section-title">Изготовление автохимии</h2>
-                    <img class="prodact-photo-mobile" src="./img/production.jpg" alt="prodaction">
-                    <div>
-                        <p>
-                            Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны быть ассоциативно распределены по отраслям. В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для поставленных обществом задач.
-                        </p>
-                        <ul class="prodact-list">
-
-                            <li class="prodact-list-item">
-                                <svg width=
-                                </svg>
-                                Автомобильная химия
-                            </li>
-                            <li class="prodact-list-item">
-                                <svg width=
-                                </svg>
-                                Бытовая химия
-                            </li>
-                            <li class="prodact-list-item">
-                                <svg width="3
-                                </svg>
-                                Дезинфицирующие средства
-                            </li>
-                            <li class="prodact-list-item">
-                                <svg width="30" 
-                                </svg>
-                                Пищевые аэрозоли
-                            </li>
-                            <li class="prodact-list-item">
-                                <svg width="30" 
-                                </svg>
-                                Косметическая продукция
-                            </li>
-                            <li class="prodact-list-item">
-                                <svg width="3
-                                </svg>
-                                Краски аэрозольные
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <img class="prodact-photo" src="./img/avtohim.jpg" alt="prodaction">
-            </div>
-        </div>
-    </section> -->

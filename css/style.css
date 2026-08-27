@@ -1589,6 +1589,14 @@ li > a {
 }
 
 @media (max-width: 820px) {
+  .hide-text {
+    display: none;
+  }
+
+.founder-text {
+    columns: 1 auto;
+}
+
 .prodact-list_avtohim {
   columns: 1 auto;
 }

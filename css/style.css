@@ -1651,6 +1651,7 @@ li > a {
     padding: 1.875rem 0.125rem 0.8125rem;
     height: auto;
     padding: 1.5rem 1.2rem 0.8125rem 1.2rem;
+    min-width: 145px;
   }
 
   .section {

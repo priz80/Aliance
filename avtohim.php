@@ -41,25 +41,27 @@
                 <p>
                   Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны быть ассоциативно распределены по отраслям.
                 </p>
-                <ul class="prodact-list">
-                  <li class="prodact-list-item">  
-                    Автомобильная химия
-                  </li>
-                  <li class="prodact-list-item">
-                    Бытовая химия
-                  </li>
-                  <li class="prodact-list-item">
-                    Дезинфицирующие средства
-                  </li>
-                  <li class="prodact-list-item">
-                    Пищевые аэрозоли
-                  </li>
-                  <li class="prodact-list-item">
-                    Косметическая продукция
-                  </li>
-                  <li class="prodact-list-item">
-                    Краски аэрозольные
-                  </li>
+                <ul class="prodact-list_avtohim">
+                  <li class="prodact-list-item">Антискотч</li>
+                  <li class="prodact-list-item">Многоцелевая смазка</li>
+                  <li class="prodact-list-item">Жидкий ключ</li>
+                  <li class="prodact-list-item">Высокотемпературная смазка</li>
+                  <li class="prodact-list-item">Универсальный очиститель деталей</li>
+                  <li class="prodact-list-item">Силиконовая смазка</li>
+                  <li class="prodact-list-item">Цепная смазка</li>
+                  <li class="prodact-list-item">Медная смазка</li>
+                  <li class="prodact-list-item">Графитовая смазка</li>
+                  <li class="prodact-list-item">Очиститель кондиционера пенный</li>
+                  <li class="prodact-list-item">Очиститель тормозных дисков</li>
+                  <li class="prodact-list-item">Очиститель битумных пятен</li>
+                  <li class="prodact-list-item">Очиститель кондционера</li>
+                  <li class="prodact-list-item">Очиститель дросельной заслонки</li>
+                  <li class="prodact-list-item">Очиститель обивки</li>
+                  <li class="prodact-list-item">Тефлоновая смазка</li>
+                  <li class="prodact-list-item">Очиститель двигателя</li>
+                  <li class="prodact-list-item">Универсальный очиститель</li>
+                  <li class="prodact-list-item">Чернитель шин</li>
+                  <li class="prodact-list-item">Чернитель шин + очистка</li>
                 </ul>
               </div>
             </div>

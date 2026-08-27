@@ -30,12 +30,12 @@
     <div class="container">
         <div class="blogslider-footer">
             <div class="center-buttons research-buttons-wraper">
-                <div class="primary-button-prev center-button-prev">
+                <div class="primary-button-prev center-button-prev button-fill ">
                     <svg width="36" height="24">
                         <use xlink:href="img/sprite.svg#arrow-prev"></use>
                     </svg>
                 </div>
-                <div class="primary-button-next center-button-next">
+                <div class="primary-button-next center-button-next button-fill ">
                     <svg width="36" height="24">
                         <use xlink:href="img/sprite.svg#arrow-next"></use>
                     </svg>

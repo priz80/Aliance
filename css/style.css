@@ -572,6 +572,11 @@ li > a {
   max-width: 670px;
   margin-top: 30px;
 }
+.prodact-list_avtohim {
+  padding: 0;
+  columns: 4 auto;
+  margin-top: 20px;
+}
 
 .prodact-list-item {
   display: flex;
@@ -584,9 +589,12 @@ li > a {
   margin-bottom: 20px;
 }
 
+
 .prodact-list-item::before {
   content: "—";
   padding-right: 20px;
+  color: var(--main);
+  font-weight: 00;
 }
 
 .seo {

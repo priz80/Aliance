@@ -292,7 +292,7 @@
         <div class="swiper-wrapper">
           <!-- Slides -->
           <a href="blog.php" class="swiper-slide blog-card image-post">
-            <!-- <img src="./img/blog-photo.jpg" alt="" class="blog-card-image" > -->
+            
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -303,7 +303,7 @@
             </p>
           </a>
           <a href="blog.php" class="swiper-slide blog-card image-photo">
-            <!-- <img src="./img/blog-post.jpg" alt="" class="blog-card-image" > -->
+            
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -314,7 +314,7 @@
             </p>
           </a>
           <a href="blog.php" class="swiper-slide blog-card image-post">
-            <!-- <img src="./img/blog-photo.jpg" alt="" class="blog-card-image" > -->
+            
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>

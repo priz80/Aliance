@@ -1,7 +1,11 @@
 <section class="section founder">
 
-  <img class="founder-photo" src="./img/founder.jpg" alt="founder">
-
+  <!-- <img class="founder-photo" src="./img/founder.jpg" alt="founder"> -->
+<picture>
+  <source type="image/webp" srcset="./img/founder.webp">
+  <source type="image/jpeg" srcset="./img/founder.jpg">
+  <img src="./img/founder.jpg" alt="founder">
+</picture>
   <div class="container">
     <div class="founder-content-wrapper">
       <div class="founder-content">

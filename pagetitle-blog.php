@@ -13,16 +13,11 @@
     
   </head>
   <body>
-    <section class="page-title <?php echo $header_style; ?>">
+    <section class="page-title_blog <?php echo $header_style; ?>">
       <div class="container page-title-container">
-        <div class="page-title-info">
-          <!-- <div class="seporator"></div> -->
-          <!-- <h2 class="page-title-chapter chapter-blog"><?php echo $page_title; ?></h2> -->
-          <div class="breadcrumbs">
-            <a href="index.php" class="breadcrumb-blog-link">Главная</a>
-            <span class="dash-blog">-</span>
-            <p class="breadcrumbs-chapter-blog"><?php echo $page_title; ?></p>
-          </div>
-        </div>
+          <ul class="breadcrumbs">
+          <a href="index.php" class="breadcrumb-blog-link"><li>Главная</li></a>
+          <li class="breadcrumbs-chapter-blog"><?php echo $page_title; ?></li>
+        </ul>
       </div>
     </section>

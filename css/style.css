@@ -330,6 +330,12 @@ li > a {
   margin: 1.5rem 0 2.2rem;
 }
 
+.section-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 .production-title {
   letter-spacing: 0.02rem;
 }

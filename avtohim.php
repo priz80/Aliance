@@ -1,5 +1,8 @@
       <?php
       $page_title = "Автомобильная химия";
+      $page_title_relative = "Контрактное производство";
+      $page_title_dash = "dash";
+      $href_title_relative = "contract_product.php";
       $header_style = "page-header-bg-gray";
       //переменные для блока с картинкой слева
       $block_title = "Контрактное производство автомобильной химии";

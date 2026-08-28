@@ -924,7 +924,7 @@ li > a {
 .input-group-label {
   position: absolute;
   cursor: text;
-  top: 1.8rem;
+  top: 1.3rem;
   left: 1.975rem;
   color: var(--txt2);
   font-size: 16px;

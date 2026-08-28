@@ -7,7 +7,7 @@
       <div class="founder-content">
         <div class="seporator"></div>
         <h2 class="section-title">Отношение к делу и к клиентам</h2>
-        <div>
+        <div class="section-text">
           <p>
             Кстати, интерактивные прототипы описаны максимально подробно.
             Повседневная практика показывает, что укрепление и развитие

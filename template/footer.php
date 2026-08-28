@@ -45,19 +45,19 @@
             <a href="product_avtohim.php" class="footer-menu-link">Автомобильная химия</a>
           </li>
           <li class="footer-menu-item">
-            <a href="./template/./template/template.php" class="footer-menu-link">Бытовая химия</a>
+            <a href="./template/template.php" class="footer-menu-link">Бытовая химия</a>
           </li>
           <li class="footer-menu-item">
-            <a href="./template/./template/template.php" class="footer-menu-link">Дезинфицирующие средства</a>
+            <a href="./template/template.php" class="footer-menu-link">Дезинфицирующие средства</a>
           </li>
           <li class="footer-menu-item">
-            <a href="./template/./template/template.php" class="footer-menu-link">Пищевые аэрозоли</a>
+            <a href="./template/template.php" class="footer-menu-link">Пищевые аэрозоли</a>
           </li>
           <li class="footer-menu-item">
-            <a href="./template/./template/template.php" class="footer-menu-link">Косметическая продукция</a>
+            <a href="./template/template.php" class="footer-menu-link">Косметическая продукция</a>
           </li>
           <li class="footer-menu-item">
-            <a href="./template/./template/template.php" class="footer-menu-link">Краски аэрозольные</a>
+            <a href="./template/template.php" class="footer-menu-link">Краски аэрозольные</a>
           </li>
         </ul>
       </div>

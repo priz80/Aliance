@@ -594,9 +594,7 @@ li > a {
 
 .prodact-list-item::before {
   content: "—";
-  padding-right: 20px;
   color: var(--main);
-  font-weight: 00;
 }
 
 .seo {
@@ -2108,10 +2106,6 @@ li > a {
   margin: 0;
   padding: 0;
 }
-.dash::before {
-  content: "— ";
-  padding-right: 10px;
-}
 
 .breadcrumb-page-link {
   font-size: 0.875rem;
@@ -2177,6 +2171,11 @@ li > a {
 
 .page-title-image {
   margin-top: -20px;
+}
+
+.dash::before {
+  content: "—";
+  padding-right: 10px;
 }
 
 @media (max-width: 1780px) {

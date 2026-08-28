@@ -25,7 +25,7 @@
   include_once('navbar_light.php') ?>
 
     <?php include_once('left-image-block.php') ?>
-    <?php include_once('advant-slider-block.php') ?>
+    <?php include_once('./template/advant-slider-block.php') ?>
     <?php include_once('./template/center.php') ?>
     <?php include_once('section-light.php') ?>
     <?php include_once('clients.php') ?>

@@ -593,10 +593,10 @@ li > a {
   margin-bottom: 20px;
 }
 
-.prodact-list-item::before {
+/* .prodact-list-item::before {
   content: "—";
   color: var(--main);
-}
+} */
 
 .seo {
   margin-top: 6.25rem;
@@ -2182,6 +2182,12 @@ li > a {
 .dash::before {
   content: "—";
   padding-right: 10px;
+}
+
+.dash-blue::before {
+  content: "—";
+  padding-right: 10px;
+  color: var(--main);
 }
 
 @media (max-width: 1780px) {

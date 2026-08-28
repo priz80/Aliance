@@ -17,6 +17,7 @@
       <div class="container page-title-container">
           <ul class="breadcrumbs">
           <li><a href="index.php" class="breadcrumb-blog-link">Главная</a></li>
+          <li><a href="blog.php" class="breadcrumb-blog-link dash">Блог</a></li>
           <li class="breadcrumbs-chapter-blog dash"><?php echo $page_title; ?></li>
         </ul>
       </div>

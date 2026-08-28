@@ -4,6 +4,7 @@
   $page_title_relative = "Собственные марки";
   $href_title_relative = "own_product.php";
   $page_title_dash = "dash";
+  $avtohim_img = "./img/avtohim.png";
   //переменные для блока с картинкой слева
   $block_title = "Собственное производство автохимия AG-Tech";
   $image_block = "./img/ag-img.jpg";
@@ -19,7 +20,7 @@
   $image_visibility = "image-visibility";
   $image_mobile_visibility = "image-mobile_visibility";
 
-  include_once('./template/page-header.php');
+  include_once('./template/avtohim-header.php');
   include_once('./template/modal.php');
   include_once('./template/mobile_menu.php');
   include_once('./template/navbar_light.php') ?>

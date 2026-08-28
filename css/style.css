@@ -1195,6 +1195,7 @@ li > a {
   display: block;
   margin-bottom: 1.5rem;
   width: 100%;
+  text-align: center;
 }
 
 .input:focus ~ .modal-input-label,

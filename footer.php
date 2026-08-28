@@ -62,7 +62,7 @@
         </ul>
       </div>
       <div class="footer-menu-wrapper">
-        <h2 class="footer-menu-title">Собственные марки</h2>
+        <a href="own_product.php"><h2 class="footer-menu-title">Собственные марки</h2></a>
         <ul class="footer-menu-list">
           <li class="footer-menu-item">
             <a href="product_ag-tech.php" class="footer-menu-link">Автохимия AG-Tech</a>

@@ -15,10 +15,6 @@
             оценить значение форм воздействия.
           </p>
         </div>
-        <!-- <img
-          src="./img/avto-him.png"
-          alt="Автомобильная химия"
-          class="card-image"> -->
         <picture>
           <source class="card-image" type="image/webp" srcset="./img/avto-him.webp">
           <source class="card-image" type="image/jpeg" srcset="./img/avto-him.png">
@@ -33,10 +29,6 @@
             нанотехнологии функционально разнесены на независимые элементы.
           </p>
         </div>
-        <!-- <img
-          src="./img/bit-him.png"
-          alt="Бытовая химия<"
-          class="card-image"> -->
         <picture>
           <source class="card-image" type="image/webp" srcset="./img/bit-him.webp">
           <source class="card-image" type="image/jpeg" srcset="./img/bit-him.png">
@@ -50,10 +42,6 @@
             Лишь интерактивные прототипы призваны к ответу.
           </p>
         </div>
-        <!-- <img
-          src="./img/dezinfect.png"
-          alt="Дезинфицирующие средства"
-          class="card-image"> -->
         <picture>
           <source class="card-image" type="image/webp" srcset="./img/dezinfect.webp">
           <source class="card-image" type="image/jpeg" srcset="./img/dezinfect.png">
@@ -68,10 +56,6 @@
             оценить значение форм воздействия.
           </p>
         </div>
-        <!-- <img
-          src="./img/dezinfect.png"
-          alt="Пищевые аэрозоли"
-          class="card-image"> -->
         <picture>
           <source class="card-image" type="image/webp" srcset="./img/dezinfect.webp">
           <source class="card-image" type="image/jpeg" srcset="./img/dezinfect.png">
@@ -85,10 +69,6 @@
             Лишь интерактивные прототипы призваны к ответу.
           </p>
         </div>
-        <!-- <img
-          src="./img/avto-him.png"
-          alt="Косметическая продукция"
-          class="card-image"> -->
         <picture>
           <source class="card-image" type="image/webp" srcset="./img/avto-him.webp">
           <source class="card-image" type="image/jpeg" srcset="./img/avto-him.png">
@@ -103,10 +83,6 @@
             нанотехнологии функционально разнесены на независимые элементы.
           </p>
         </div>
-        <!-- <img
-          src="./img/bit-him.png"
-          alt="Краски аэрозольные"
-          class="card-image"> -->
         <picture>
           <source class="card-image" type="image/webp" srcset="./img/bit-him.webp">
           <source class="card-image" type="image/jpeg" srcset="./img/bit-him.png">

@@ -15,19 +15,19 @@
     $image_visibility = "image-visibility";
     $image_mobile_visibility = "image-mobile_visibility";
 
-    include_once('page-header.php');
-    include_once('modal.php');
-    include_once('mobile_menu.php');
-    include_once('navbar_light.php') ?>
+    include_once('./template/page-header.php');
+    include_once('./template/modal.php');
+    include_once('./template/mobile_menu.php');
+    include_once('./template/navbar_light.php') ?>
 
-    <?php include_once('left-image-block.php') ?>
+    <?php include_once('./template/left-image-block.php') ?>
 
     <?php include_once('./template/advant-slider-block.php') ?>
 
-    <?php include_once('right-image-block.php') ?>
+    <?php include_once('./template/right-image-block.php') ?>
 
-    <?php include_once('founder.php') ?>
+    <?php include_once('./template/founder.php') ?>
     <?php include_once('./template/center.php') ?>
     <?php include_once('./template/clients.php') ?>
-    <?php include_once('cta.php') ?>
-    <?php include_once('footer.php') ?>
+    <?php include_once('./template/cta.php') ?>
+    <?php include_once('./template/footer.php') ?>

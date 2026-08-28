@@ -48,7 +48,7 @@ if (!empty($current_items)) {
             echo '<div class="catalog-item">';
                 echo '<img src="' . htmlspecialchars($bg_image) . '" alt="' . htmlspecialchars($item['title']) . '" class="blog-card-image">';
                 echo '<div class="catalog-item-content">';
-                    echo '<h3>' . htmlspecialchars($item['title']) . '</h3>';
+                    echo '<h2>' . htmlspecialchars($item['title']) . '</h2>';
                     echo '<p>' . htmlspecialchars($item['excerpt']) . '</p>';
                 echo '</div>';
             echo '</div>'; // catalog-item

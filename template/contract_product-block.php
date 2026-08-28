@@ -7,7 +7,7 @@
     }
     ?>
     <div class="cards">
-      <a href="avtohim.php" class="card">
+      <a href="product_avtohim.php" class="card">
         <div class="card-content">
           <h3 class="card-title">Автомобильная химия</h3>
           <p class="card-text">

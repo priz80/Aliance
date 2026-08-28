@@ -28,6 +28,6 @@
 
     <?php include_once('founder.php') ?>
     <?php include_once('./template/center.php') ?>
-    <?php include_once('clients.php') ?>
+    <?php include_once('./template/clients.php') ?>
     <?php include_once('cta.php') ?>
     <?php include_once('footer.php') ?>

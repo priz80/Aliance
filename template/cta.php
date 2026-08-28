@@ -29,7 +29,8 @@
               class="input phone-mask"
               id="user-phone"
               placeholder=" "
-              name="userphone" >
+              name="userphone"
+              maxlength="18" >
             <label class="input-group-label" for="user-phone">Номер телефона</label>
           </div>
         </div>

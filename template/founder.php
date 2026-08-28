@@ -1,6 +1,4 @@
 <section class="section founder">
-
-  <!-- <img class="founder-photo" src="./img/founder.jpg" alt="founder"> -->
 <picture>
   <source class="founder-photo" type="image/webp" srcset="./img/founder.webp">
   <source class="founder-photo" type="image/jpeg" srcset="./img/founder.jpg">

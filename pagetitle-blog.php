@@ -143,6 +143,9 @@
 
 <body>
   <section class="page-title_blog <?php echo $header_style; ?>">
+    <h2 style="position: absolute; left: -9999px; overflow: hidden; height: 0;">
+      <?php echo htmlspecialchars($page_title); ?>
+    </h2>
     <div class="container page-title-container">
       <ul class="breadcrumbs">
         <li><a href="index.php" class="breadcrumb-blog-link">Главная</a></li>

@@ -16,7 +16,7 @@
     <section class="page-title_blog <?php echo $header_style; ?>">
       <div class="container page-title-container">
           <ul class="breadcrumbs">
-          <a href="index.php" class="breadcrumb-blog-link"><li>Главная</li></a>
+          <li><a href="index.php" class="breadcrumb-blog-link">Главная</a></li>
           <li class="breadcrumbs-chapter-blog"><?php echo $page_title; ?></li>
         </ul>
       </div>

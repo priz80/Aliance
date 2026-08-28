@@ -47,39 +47,51 @@
 
                 <li class="prodact-list-item">
                   <svg width="30" height="30" class="clients-list-icon">
-                    <use xlink:href="img/sprite.svg#car"></use>
+                    <use xlink:href="img/sprite.svg#him"></use>
                   </svg>
-                  Автомобильная химия
+                  Полное описание товаров
                 </li>
                 <li class="prodact-list-item">
                   <svg width="30" height="30" class="clients-list-icon">
-                    <use xlink:href="img/sprite.svg#eat"></use>
+                    <use xlink:href="img/sprite.svg#car"></use>
                   </svg>
-                  Бытовая химия
+                  Актуальные цены
+                </li>
+                <li class="prodact-list-item">
+                  <svg width="30" height="30" class="clients-list-icon">
+                    <use xlink:href="img/sprite.svg#him"></use>
+                  </svg>
+                  Полное описание товаров
+                </li>
+                <li class="prodact-list-item">
+                  <svg width="30" height="30" class="clients-list-icon">
+                    <use xlink:href="img/sprite.svg#car"></use>
+                  </svg>
+                  Актуальные цены
                 </li>
                 <li class="prodact-list-item">
                   <svg width="30" height="30" class="clients-list-icon">
                     <use xlink:href="img/sprite.svg#brush"></use>
                   </svg>
-                  Дезинфицирующие средства
+                  Лаки и краски
                 </li>
                 <li class="prodact-list-item">
                   <svg width="30" height="30" class="clients-list-icon">
-                    <use xlink:href="img/sprite.svg#cosmetic"></use>
+                    <use xlink:href="img/sprite.svg#him"></use>
                   </svg>
-                  Пищевые аэрозоли
+                  Химические производства
                 </li>
                 <li class="prodact-list-item">
                   <svg width="30" height="30" class="clients-list-icon">
-                    <use xlink:href="img/sprite.svg#car-cosm"></use>
+                    <use xlink:href="img/sprite.svg#brush"></use>
                   </svg>
-                  Косметическая продукция
+                  Лаки и краски
                 </li>
                 <li class="prodact-list-item">
                   <svg width="30" height="30" class="clients-list-icon">
-                    <use xlink:href="img/sprite.svg#shirt"></use>
+                    <use xlink:href="img/sprite.svg#him"></use>
                   </svg>
-                  Краски аэрозольные
+                  Химические производства
                 </li>
               </ul>
             </div>

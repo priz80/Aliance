@@ -657,7 +657,7 @@ li > a {
 
 .error-button {
   max-width: 18.75rem;
-  margin: auto;
+  margin: 30px auto auto auto;
 }
 
 .policy {

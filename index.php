@@ -269,7 +269,7 @@
       </div> -->
     </div>
     
-    <?php include_once('advant-slider-block.php') ?>
+    <?php include_once('./template/advant-slider-block.php') ?>
   </header>
 
 

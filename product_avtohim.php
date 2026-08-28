@@ -36,7 +36,6 @@
           <source class="founder-photo-avtohim" type="image/jpeg" srcset="./img/avtohim-prod.jpg">
           <img class="founder-photo-avtohim" src="./img/avtohim-prod.jpg" alt="founder">
         </picture>
-        <!-- <img class="founder-photo-avtohim" src="./img/avtohim-prod.jpg" alt="founder"> -->
         <div class="container">
           <div class="avtohim-content-wrapper">
             <div class="founder-content">
@@ -111,26 +110,26 @@
                   Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны быть ассоциативно распределены по отраслям.
                 </p>
                 <ul class="prodact-list_avtohim">
-                  <li class="prodact-list-item">Антискотч</li>
-                  <li class="prodact-list-item">Многоцелевая смазка</li>
-                  <li class="prodact-list-item">Жидкий ключ</li>
-                  <li class="prodact-list-item">Высокотемпературная смазка</li>
-                  <li class="prodact-list-item">Универсальный очиститель деталей</li>
-                  <li class="prodact-list-item">Силиконовая смазка</li>
-                  <li class="prodact-list-item">Цепная смазка</li>
-                  <li class="prodact-list-item">Медная смазка</li>
-                  <li class="prodact-list-item">Графитовая смазка</li>
-                  <li class="prodact-list-item">Очиститель кондиционера пенный</li>
-                  <li class="prodact-list-item">Очиститель тормозных дисков</li>
-                  <li class="prodact-list-item">Очиститель битумных пятен</li>
-                  <li class="prodact-list-item">Очиститель кондционера</li>
-                  <li class="prodact-list-item">Очиститель дросельной заслонки</li>
-                  <li class="prodact-list-item">Очиститель обивки</li>
-                  <li class="prodact-list-item">Тефлоновая смазка</li>
-                  <li class="prodact-list-item">Очиститель двигателя</li>
-                  <li class="prodact-list-item">Универсальный очиститель</li>
-                  <li class="prodact-list-item">Чернитель шин</li>
-                  <li class="prodact-list-item">Чернитель шин + очистка</li>
+                  <li class="prodact-list-item dash-blue">Антискотч</li>
+                  <li class="prodact-list-item dash-blue">Многоцелевая смазка</li>
+                  <li class="prodact-list-item dash-blue">Жидкий ключ</li>
+                  <li class="prodact-list-item dash-blue">Высокотемпературная смазка</li>
+                  <li class="prodact-list-item dash-blue">Универсальный очиститель деталей</li>
+                  <li class="prodact-list-item dash-blue">Силиконовая смазка</li>
+                  <li class="prodact-list-item dash-blue">Цепная смазка</li>
+                  <li class="prodact-list-item dash-blue">Медная смазка</li>
+                  <li class="prodact-list-item dash-blue">Графитовая смазка</li>
+                  <li class="prodact-list-item dash-blue">Очиститель кондиционера пенный</li>
+                  <li class="prodact-list-item dash-blue">Очиститель тормозных дисков</li>
+                  <li class="prodact-list-item dash-blue">Очиститель битумных пятен</li>
+                  <li class="prodact-list-item dash-blue">Очиститель кондционера</li>
+                  <li class="prodact-list-item dash-blue">Очиститель дросельной заслонки</li>
+                  <li class="prodact-list-item dash-blue">Очиститель обивки</li>
+                  <li class="prodact-list-item dash-blue">Тефлоновая смазка</li>
+                  <li class="prodact-list-item dash-blue">Очиститель двигателя</li>
+                  <li class="prodact-list-item dash-blue">Универсальный очиститель</li>
+                  <li class="prodact-list-item dash-blue">Чернитель шин</li>
+                  <li class="prodact-list-item dash-blue">Чернитель шин + очистка</li>
                 </ul>
               </div>
             </div>

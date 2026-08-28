@@ -4,6 +4,7 @@
       $page_title_dash = "dash";
       $href_title_relative = "contract_product.php";
       $header_style = "page-header-bg-gray";
+      $avtohim_img = "./img/avtohim.png";
       //переменные для блока с картинкой слева
       $block_title = "Контрактное производство автомобильной химии";
       $image_block = "./img/production.jpg";
@@ -20,7 +21,7 @@
       $image_mobile_visibility = "image-mobile_founder";
 
 
-      include_once('./template/page-header.php');
+      include_once('./template/avtohim-header.php');
       include_once('./template/modal.php');
       include_once('./template/mobile_menu.php');
       include_once('./template/navbar_light.php') ?>

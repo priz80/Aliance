@@ -94,7 +94,6 @@ include_once('./template/mobile_menu.php');
             <div class="swiper-wrapper" id="swiper-wrapper-95c14df083716f5f" aria-live="polite">
                 <!-- Slides -->
                 <div class="swiper-slide blog-card image-post swiper-slide-active" role="group" aria-label="1 / 3" style="width: 705px; margin-right: 30px;">
-                    <!-- <img src="./img/blog-photo.jpg" alt="" class="blog-card-image" > -->
                     <a href="blog.php">
                         <h3 class="blog-card-title">
                             Современная методология разработки одухотворила всех причастных
@@ -107,7 +106,6 @@ include_once('./template/mobile_menu.php');
                     </a>
                 </div>
                 <div class="swiper-slide blog-card image-photo swiper-slide-next" role="group" aria-label="2 / 3" style="width: 705px; margin-right: 30px;">
-                    <!-- <img src="./img/blog-post.jpg" alt="" class="blog-card-image" > -->
                     <a href="blog.php">
                         <h3 class="blog-card-title">
                             Сложно сказать, почему жизнь прекрасна
@@ -120,7 +118,6 @@ include_once('./template/mobile_menu.php');
                     </a>
                 </div>
                 <div class="swiper-slide blog-card image-post" role="group" aria-label="3 / 3" style="width: 705px; margin-right: 30px;">
-                    <!-- <img src="./img/blog-photo.jpg" alt="" class="blog-card-image" > -->
                     <a href="blog.php">
                         <h3 class="blog-card-title">
                             Современная методология разработки одухотворила всех причастных

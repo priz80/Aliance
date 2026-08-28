@@ -1,7 +1,10 @@
 <?php
+echo '<link rel="icon" href="./img/favicon.svg" type="image/x-icon">';
+?>
+
+<?php
 // 1. Получаем ID из адресной строки (например, blog_more.php?id=10)
 $id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
-
 // 2. Валидация: если ID не задан или не является числом, перенаправляем на главную или блог
 if ($id <= 0) {
     header("Location: blog.php");

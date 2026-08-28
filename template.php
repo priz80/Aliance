@@ -1,6 +1,9 @@
   <?php
   $page_title = "Template";
   $header_style = "page-header-bg-gray";
+  $page_title_relative = "Контрактное производство";
+  $href_title_relative = "own_product.php";
+  $page_title_dash = "dash";
   //переменные для блока с картинкой слева
   $block_title = "мы - эксперты в области производства химии";
   $image_block = "./img/prodact.jpg";

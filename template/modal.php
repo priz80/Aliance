@@ -15,11 +15,11 @@
 
             <div class="input-group-wrapper input-group-vertical">
               <div class="input-group modal-input-group">
-                <input type="text" class="input modal-input" id="modal-user-name" name="username" placeholder=" " maxlength="30" required >
+                <input type="text" class="input modal-input" id="modal-user-name" name="username" placeholder=" " maxlength="30" required>
                 <label class="input-group-label modal-input-label" for="modal-user-name">Имя</label>
               </div>
               <div class="input-group modal-input-group">
-                <input type="tel" class="input phone-mask modal-input" id="modal-user-phone" name="userphone" placeholder=" " maxlength="18" required >
+                <input type="tel" class="input phone-mask modal-input" id="modal-user-phone" name="userphone" placeholder=" " maxlength="18" required>
                 <label class="input-group-label modal-input-label" for="modal-user-phone">Номер телефона</label>
               </div>
             </div>
@@ -44,7 +44,13 @@
       </div>
       <div class="modal" id="alert-modal">
         <div class="modal-dialog">
-          <img src="./img/thanks_illu.png" alt="" class="thanks-image">
+          <!-- <img src="./img/thanks_illu.png" alt="" class="thanks-image"> -->
+
+          <picture class="thanks-image">
+            <source type="image/webp" srcset="./img/thanks_illu.webp">
+            <source type="image/jpeg" srcset="./img/thanks_illu.png">
+            <img src="./img/thanks_illu.png" alt="thanks-image">
+          </picture>
           <h2 class="modal-title">Спасибо за заявку!</h2>
 
           <a href="" class="modal-close" data-toggle="modal" data-target="#alert-modal">

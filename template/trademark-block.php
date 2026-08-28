@@ -12,7 +12,7 @@
         <svg class="trademark-card-logo">
           <use xlink:href="img/sprite.svg#AGTECH"></use>
         </svg>
-        <h3 class="trademark-card-title">Автохимия AG-Tech</h3>
+        <h2 class="trademark-card-title">Автохимия AG-Tech</h2>
         <p class="trademark-card-text">
           Для современного мира разбавленное изрядной долей эмпатии,
           рациональное мышление создаёт предпосылки для поставленных
@@ -23,7 +23,7 @@
         <svg class="trademark-card-logo">
           <use xlink:href="img/sprite.svg#AP"></use>
         </svg>
-        <h3 class="trademark-card-title">Автохимия AP</h3>
+        <h2 class="trademark-card-title">Автохимия AP</h2>
         <p class="trademark-card-text">
           Для современного мира разбавленное изрядной долей эмпатии,
           рациональное мышление создаёт предпосылки для поставленных

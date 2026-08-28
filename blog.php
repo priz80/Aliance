@@ -1,7 +1,7 @@
 <?php
 $page_title = "Блог";
 $header_style = "page-header-bg-gray";
-include_once('page-header.php');
+include_once('./template/page-header.php');
 
 // --- Начало логики каталога ---
 
@@ -78,9 +78,9 @@ echo '</div>'; // catalog-wrap
 echo '</div>'; // container
 echo '</section>';
 
-include_once('modal.php');
-include_once('mobile_menu.php');
-include_once('navbar_light.php');
-include_once('cta.php');
-include_once('footer.php');
+include_once('./template/modal.php');
+include_once('./template/mobile_menu.php');
+include_once('./template/navbar_light.php');
+include_once('./template/cta.php');
+include_once('./template/footer.php');
 ?>

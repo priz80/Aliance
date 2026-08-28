@@ -54,13 +54,13 @@ include_once('./template/mobile_menu.php');
             <div class="news-column">
                 <div class="news-title">
                     <!-- Используем динамический заголовок из массива -->
-                    <h2><?= htmlspecialchars($all_items[$id]['title']) ?></h2>
+                    <h1><?= htmlspecialchars($all_items[$id]['title']) ?></h1>
                     <p><?= htmlspecialchars($all_items[$id]['excerpt']) ?></p>
                 </div>
                 <!-- Остальной контент -->
                 <img class="news-img" src="./img/slide-research_2.png" alt="">
                 <div class="news-title">
-                    <h3>Подзаголовок статьи</h3>
+                    <h2>Подзаголовок статьи</h2>
                     <p>Текст статьи...</p>
                 </div>
             </div>

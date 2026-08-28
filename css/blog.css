@@ -28,7 +28,7 @@
     transform 0.3s ease;
   width: 100%;
   max-width: 705px;
-  height: 400px;
+  height: 25rem;
 }
 
 .blog-card-image {
@@ -197,12 +197,9 @@
   visibility: hidden;
 }
 
-
-
-
-@media (max-width: 768px) {
-  .catalog-grid {
-    grid-template-columns: 1fr;
+@media (max-width: 820px) {
+   .catalog-grid {
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .social-icons {
@@ -218,8 +215,7 @@
   }
 }
 @media (max-width: 576px) {
-  .catalog-item {
-    max-width: 345px;
-    height: 195px;
+  .catalog-item, .catalog-item-link {
+    max-height: 195px;
   }
 }

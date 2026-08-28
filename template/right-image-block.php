@@ -17,31 +17,31 @@
                 </li>
                 <li class="prodact-list-item">
                   <svg width="30" height="30" class="clients-list-icon">
-                    <use xlink:href="img/sprite.svg#eat"></use>
+                    <use xlink:href="img/sprite.svg#home"></use>
                   </svg>
                   Бытовая химия
                 </li>
                 <li class="prodact-list-item">
                   <svg width="30" height="30" class="clients-list-icon">
-                    <use xlink:href="img/sprite.svg#brush"></use>
+                    <use xlink:href="img/sprite.svg#dis"></use>
                   </svg>
                   Дезинфицирующие средства
                 </li>
                 <li class="prodact-list-item">
                   <svg width="30" height="30" class="clients-list-icon">
-                    <use xlink:href="img/sprite.svg#cosmetic"></use>
+                    <use xlink:href="img/sprite.svg#aerozol"></use>
                   </svg>
                   Пищевые аэрозоли
                 </li>
                 <li class="prodact-list-item">
                   <svg width="30" height="30" class="clients-list-icon">
-                    <use xlink:href="img/sprite.svg#car-cosm"></use>
+                    <use xlink:href="img/sprite.svg#cosmetic"></use>
                   </svg>
                   Косметическая продукция
                 </li>
                 <li class="prodact-list-item">
                   <svg width="30" height="30" class="clients-list-icon">
-                    <use xlink:href="img/sprite.svg#shirt"></use>
+                    <use xlink:href="img/sprite.svg#brush"></use>
                   </svg>
                   Краски аэрозольные
                 </li>

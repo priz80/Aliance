@@ -28,5 +28,5 @@
         </p>
     </div>
 
-    <?php include_once('cta.php') ?>
-    <?php include_once('footer.php') ?>
+    <?php include_once('./template/cta.php') ?>
+    <?php include_once('./template/footer.php') ?>

@@ -149,7 +149,7 @@
         <h2 class="page-title-chapter"><?php echo $page_title; ?></h2>
         <ul class="breadcrumbs">
           <li><a href="index.php" class="breadcrumb-page-link">Главная</a></li>
-          <li class="breadcrumbs-chapter"><?php echo $page_title; ?></li>
+          <li class="breadcrumbs-chapter dash"><?php echo $page_title; ?></li>
         </ul>
       </div>
     </div>

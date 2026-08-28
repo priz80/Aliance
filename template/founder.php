@@ -2,9 +2,9 @@
 
   <!-- <img class="founder-photo" src="./img/founder.jpg" alt="founder"> -->
 <picture>
-  <source type="image/webp" srcset="./img/founder.webp">
-  <source type="image/jpeg" srcset="./img/founder.jpg">
-  <img src="./img/founder.jpg" alt="founder">
+  <source class="founder-photo" type="image/webp" srcset="./img/founder.webp">
+  <source class="founder-photo" type="image/jpeg" srcset="./img/founder.jpg">
+  <img class="founder-photo" src="./img/founder.jpg" alt="founder">
 </picture>
   <div class="container">
     <div class="founder-content-wrapper">

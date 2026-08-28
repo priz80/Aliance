@@ -151,8 +151,8 @@
 
   <?php
   $color_arrow = "#fff"; // задаем цвет стрелок слайдера advant
-  include_once('modal.php');
-  include_once('mobile_menu.php')
+  include_once('./template/modal.php');
+  include_once('./template/mobile_menu.php')
   ?>
 
   <nav class="navbar">
@@ -273,7 +273,7 @@
   </header>
 
 
-  <?php include_once('section-light.php') ?>
+  <?php include_once('./template/section-light.php') ?>
 
   <!-- <section class="section section-light">
     <div class="container">
@@ -335,7 +335,7 @@
   include_once('./template/contract_product-block.php') ?>
   <?php $block_title = "Собственные торговые марки";
   include_once('./template/trademark-block.php') ?>
-  <?php include_once('founder.php') ?>
+  <?php include_once('./template/founder.php') ?>
   <?php include_once('./template/clients.php') ?>
 
   <section class="section blog">
@@ -401,5 +401,5 @@
     </div>
   </section>
 
-  <?php include_once('cta.php') ?>
-  <?php include_once('footer.php') ?>
+  <?php include_once('./template/cta.php') ?>
+  <?php include_once('./template/footer.php') ?>

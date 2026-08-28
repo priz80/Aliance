@@ -1837,6 +1837,13 @@ li > a {
   padding-top: 3.125rem;
 }
 
+.page-title_blog {
+  width: 100%;
+  height: 16.875rem;
+  margin-top: 5.875rem;
+  padding-top: 4.125rem;
+}
+
 .page-header-bg-gray {
   background: var(--bg2);
   margin-bottom: 9.375rem;

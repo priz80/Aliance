@@ -29,10 +29,10 @@ $page_title = $all_items[$id]['title']; // Устанавливаем прави
 $article_content = $all_items[$id]['excerpt']; // Или полный контент
 
 $header_style = "blog-title-image";
-include_once('pagetitle-blog.php');
-include_once('navbar_light.php');
-include_once('modal.php');
-include_once('mobile_menu.php');
+include_once('./template/pagetitle-blog.php');
+include_once('./template/navbar_light.php');
+include_once('./template/modal.php');
+include_once('./template/mobile_menu.php');
 ?>
 
 <section>
@@ -154,6 +154,6 @@ include_once('mobile_menu.php');
 </section>
 
 <?php
-include_once('cta.php');
-include_once('footer.php');
+include_once('./template/cta.php');
+include_once('./template/footer.php');
 ?>

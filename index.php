@@ -336,7 +336,7 @@
   <?php $block_title = "Собственные торговые марки";
   include_once('./template/trademark-block.php') ?>
   <?php include_once('founder.php') ?>
-  <?php include_once('clients.php') ?>
+  <?php include_once('./template/clients.php') ?>
 
   <section class="section blog">
     <div class="container">

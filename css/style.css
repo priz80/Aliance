@@ -1896,7 +1896,7 @@ li > a {
 }
 .dash::before {
   content: "— ";
-  padding: 10px;
+  padding-right: 10px;
 }
 
 .breadcrumb-page-link {

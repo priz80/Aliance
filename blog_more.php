@@ -1,5 +1,4 @@
 <?php
-include_once('pagetitle-blog.php');
 // 1. Получаем ID из адресной строки (например, blog_more.php?id=10)
 $id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
 // 2. Валидация: если ID не задан или не является числом, перенаправляем на главную или блог
@@ -30,6 +29,7 @@ $page_title = $all_items[$id]['title']; // Устанавливаем прави
 $article_content = $all_items[$id]['excerpt']; // Или полный контент
 
 $header_style = "blog-title-image";
+include_once('pagetitle-blog.php');
 include_once('navbar_light.php');
 include_once('modal.php');
 include_once('mobile_menu.php');
@@ -60,7 +60,7 @@ include_once('mobile_menu.php');
                 <!-- Остальной контент -->
                 <img class="news-img" src="./img/slide-research_2.png" alt="">
                 <div class="news-title">
-                    <h4>Подзаголовок статьи</h4>
+                    <h3>Подзаголовок статьи</h3>
                     <p>Текст статьи...</p>
                 </div>
             </div>
@@ -93,43 +93,49 @@ include_once('mobile_menu.php');
 
             <div class="swiper-wrapper" id="swiper-wrapper-95c14df083716f5f" aria-live="polite">
                 <!-- Slides -->
-                <a href="blog.php" class="swiper-slide blog-card image-post swiper-slide-active" role="group" aria-label="1 / 3" style="width: 705px; margin-right: 30px;">
+                <div class="swiper-slide blog-card image-post swiper-slide-active" role="group" aria-label="1 / 3" style="width: 705px; margin-right: 30px;">
                     <!-- <img src="./img/blog-photo.jpg" alt="" class="blog-card-image" > -->
-                    <h3 class="blog-card-title">
-                        Современная методология разработки одухотворила всех причастных
-                    </h3>
-                    <p class="blog-card-text">
-                        Действия представителей оппозиции, превозмогая сложившуюся
-                        непростую экономическую ситуацию, в равной степени
-                        предоставлены...
-                    </p>
-                </a>
-                <a href="blog.php" class="swiper-slide blog-card image-photo swiper-slide-next" role="group" aria-label="2 / 3" style="width: 705px; margin-right: 30px;">
+                    <a href="blog.php">
+                        <h3 class="blog-card-title">
+                            Современная методология разработки одухотворила всех причастных
+                        </h3>
+                        <p class="blog-card-text">
+                            Действия представителей оппозиции, превозмогая сложившуюся
+                            непростую экономическую ситуацию, в равной степени
+                            предоставлены...
+                        </p>
+                    </a>
+                </div>
+                <div class="swiper-slide blog-card image-photo swiper-slide-next" role="group" aria-label="2 / 3" style="width: 705px; margin-right: 30px;">
                     <!-- <img src="./img/blog-post.jpg" alt="" class="blog-card-image" > -->
-                    <h3 class="blog-card-title">
-                        Сложно сказать, почему жизнь прекрасна
-                    </h3>
-                    <p class="blog-card-text">
-                        Сложно сказать, почему элементы политического процесса
-                        функционально разнесены на независимые элементы. Безусловно,
-                        высокотехнологичная...
-                    </p>
-                </a>
-                <a href="blog.php" class="swiper-slide blog-card image-post" role="group" aria-label="3 / 3" style="width: 705px; margin-right: 30px;">
+                    <a href="blog.php">
+                        <h3 class="blog-card-title">
+                            Сложно сказать, почему жизнь прекрасна
+                        </h3>
+                        <p class="blog-card-text">
+                            Сложно сказать, почему элементы политического процесса
+                            функционально разнесены на независимые элементы. Безусловно,
+                            высокотехнологичная...
+                        </p>
+                    </a>
+                </div>
+                <div class="swiper-slide blog-card image-post" role="group" aria-label="3 / 3" style="width: 705px; margin-right: 30px;">
                     <!-- <img src="./img/blog-photo.jpg" alt="" class="blog-card-image" > -->
-                    <h3 class="blog-card-title">
-                        Современная методология разработки одухотворила всех причастных
-                    </h3>
-                    <p class="blog-card-text">
-                        Действия представителей оппозиции, превозмогая сложившуюся
-                        непростую экономическую ситуацию, в равной степени
-                        предоставлены...
-                    </p>
-                </a>
+                    <a href="blog.php">
+                        <h3 class="blog-card-title">
+                            Современная методология разработки одухотворила всех причастных
+                        </h3>
+                        <p class="blog-card-text">
+                            Действия представителей оппозиции, превозмогая сложившуюся
+                            непростую экономическую ситуацию, в равной степени
+                            предоставлены...
+                        </p>
+                    </a>
+                </div>
             </div>
 
             <div class="blogslider-footer">
-                <a href="blog.php" class="button-link news-page-link">Весь блог</a>
+                <div class="button-link news-page-link">Весь блог</div>
                 <div class="blog-buttons primary-buttons-wraper">
                     <div class="button-fill blog-button-prev primary-button-prev swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-disabled="true">
                         <svg width="36" height="24">

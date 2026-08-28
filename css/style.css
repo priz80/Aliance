@@ -38,6 +38,7 @@ html {
 .container {
   max-width: 90rem;
   margin: auto;
+  /* position: relative; */
 }
 
 .container-sw {
@@ -1600,6 +1601,9 @@ li > a {
 }
 
 @media (max-width: 1160px) {
+  .img-avtohim {
+    display: none;
+  }
   .footer-legal {
     display: block;
   }
@@ -2092,6 +2096,7 @@ li > a {
 .page-title-container {
   display: flex;
   justify-content: space-between;
+  height: 100%;
 }
 
 .blog-title-container {

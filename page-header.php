@@ -148,7 +148,7 @@
         <div class="seporator"></div>
         <h2 class="page-title-chapter"><?php echo $page_title; ?></h2>
         <ul class="breadcrumbs">
-          <a href="index.php" class="breadcrumb-page-link"><li>Главная</li></a>
+          <li><a href="index.php" class="breadcrumb-page-link">Главная</a></li>
           <li class="breadcrumbs-chapter"><?php echo $page_title; ?></li>
         </ul>
       </div>

@@ -908,7 +908,7 @@ li > a {
 .input-group {
   position: relative;
   flex: 1 1 247px;
-  height: 50px;
+  height: 3.875rem;
   background-color: var(--bg2);
 }
 

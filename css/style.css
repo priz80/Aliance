@@ -721,6 +721,7 @@ li > a {
 }
 
 .clients-logo-list {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   flex-shrink: 10;
@@ -746,6 +747,8 @@ li > a {
   width: 70px;
   height: 70px;
 }
+
+
 
 .blog,
 .clients,
@@ -1598,6 +1601,10 @@ li > a {
 }
 
 @media (max-width: 1160px) {
+.client-logo-item:last-child{
+  display: none;
+}
+
   .img-avtohim {
     display: none;
   }

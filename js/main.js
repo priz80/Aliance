@@ -5,7 +5,7 @@ const button = document.querySelector(".navbar-button");
 const mMenuToggle = document.querySelector(".mobile-menu-toggle");
 const menu = document.querySelector(".mobile-menu");
 const isFront = document.body.classList.contains("front-page");
-
+let modalTimeout;
 const lightModeOn = (event) => {
   navbar.classList.add("navbar-light");
 };
@@ -157,8 +157,20 @@ forms.forEach((form) => {
             currentModal.addEventListener("click", (event) => {
               if (!event.composedPath().includes(modalDialog)) {
                 currentModal.classList.remove("is-open");
-              }
+              } 
             });
+
+// Очищаем предыдущий таймер, если он был (на случай повторного открытия)
+  clearTimeout(modalTimeout);
+
+  // Запускаем новый таймер на 5 секунд
+  modalTimeout = setTimeout(() => {
+    // Проверяем, что модалка всё ещё открыта, прежде чем закрывать
+    if (currentModal.classList.contains("is-open")) {
+      currentModal.classList.remove("is-open");
+    }
+  }, 5000);
+
           } else {
             // --- Ошибка отправки ---
             const errorDiv = document.createElement("div");

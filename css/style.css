@@ -35,6 +35,12 @@ html {
   font-display: swap;
 }
 
+h1,
+h2,
+h3 {
+color: var(--white);
+}
+
 .container {
   max-width: 90rem;
   margin: auto;
@@ -748,8 +754,6 @@ li > a {
   height: 70px;
 }
 
-
-
 .blog,
 .clients,
 .center {
@@ -1267,6 +1271,10 @@ li > a {
   margin-bottom: 40px;
 }
 
+.catalog-grid > h1 {
+ font-size: 1.75rem;
+}
+
 .catalog-item,
 .catalog-item-link {
   position: relative;
@@ -1392,21 +1400,19 @@ li > a {
 }
 
 .news-title h2 {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 2.25rem;
   line-height: 160%;
   color: var(--txt);
 }
+
 .news-title h3 {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 1.75rem;
   line-height: 160%;
   color: var(--txt);
 }
 .news-title h4 {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 1.25rem;
   line-height: 160%;
@@ -1601,9 +1607,9 @@ li > a {
 }
 
 @media (max-width: 1160px) {
-.client-logo-item:last-child{
-  display: none;
-}
+  .client-logo-item:last-child {
+    display: none;
+  }
 
   .img-avtohim {
     display: none;
@@ -1818,9 +1824,9 @@ li > a {
 }
 
 @media (max-width: 820px) {
-  .client-logo-item:last-child{
-  display: flex;
-}
+  .client-logo-item:last-child {
+    display: flex;
+  }
   .hide-text {
     display: none;
   }
@@ -1866,9 +1872,9 @@ li > a {
 }
 
 @media (max-width: 576px) {
-    .client-logo-item:last-child{
-  display: none;
-}
+  .client-logo-item:last-child {
+    display: none;
+  }
   .modal-dialog {
     margin: auto;
     max-width: 21.5625rem;

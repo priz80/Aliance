@@ -168,6 +168,7 @@ li > a {
   margin: 0;
   align-items: center;
   height: 100%;
+  gap: 50px;
 }
 
 .header-nav-item {
@@ -181,9 +182,10 @@ li > a {
   height: 100%;
   align-items: center;
   font-size: 1rem;
-  margin-right: 3.3125rem;
+  /* margin-right: 3.3125rem; */
   color: inherit;
   position: relative;
+  letter-spacing: .7px;
 }
 
 .header-nav-link:after {

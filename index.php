@@ -150,7 +150,7 @@
 
 
   <?php
-  $color_arrow = "#fff"; // задаем цвет стрелок слайдера advant
+  $color_arrow = "#fff";
   include_once('./template/modal.php');
   include_once('./template/mobile_menu.php')
   ?>
@@ -215,60 +215,8 @@
         </p>
         <button class="button header-button" data-toggle="modal" data-target="#feedback-modal">Подробнее о компании</button>
       </div>
-
-      <!-- <div class="swiper swiper-slider">
-        <ul class="swiper-wrapper header-features">
-          <li class="swiper-slide header-features-item">
-            <svg width="36" height="36">
-              <use xlink:href="img/sprite.svg#time"></use>
-            </svg>
-            <p class="header-features-text">Непрерывная работа c 2017 года</p>
-          </li>
-          <li class="swiper-slide header-features-item">
-            <svg width="36" height="36">
-              <use xlink:href="img/sprite.svg#certificate"></use>
-            </svg>
-            <p class="header-features-text">Вся продукция сертифицирована</p>
-          </li>
-          <li class="swiper-slide header-features-item">
-            <svg width="36" height="36">
-              <use xlink:href="img/sprite.svg#control"></use>
-            </svg>
-            <p class="header-features-text">
-              Контроль качества на всех этапах
-            </p>
-          </li>
-          <li class="swiper-slide header-features-item">
-            <svg width="36" height="36">
-              <use xlink:href="img/sprite.svg#delivery"></use>
-            </svg>
-            <p class="header-features-text">
-              Возможны поставки по всей России
-            </p>
-          </li>
-          <li class="swiper-slide header-features-item">
-            <svg width="36" height="36">
-              <use xlink:href="img/sprite.svg#speed"></use>
-            </svg>
-            <p class="header-features-text">Оперативное производство</p>
-          </li>
-        </ul>
-
-        <div class="slider-buttons">
-          <div class="slider-button-prev">
-            <svg width="36" height="24">
-              <use xlink:href="img/sprite.svg#arrow-prev"></use>
-            </svg>
-          </div>
-          <div class="slider-button-next">
-            <svg width="36" height="24">
-              <use xlink:href="img/sprite.svg#arrow-next"></use>
-            </svg>
-          </div>
-        </div>
-      </div> -->
     </div>
-    
+
     <?php include_once('./template/advant-slider-block.php') ?>
   </header>
 
@@ -290,9 +238,9 @@
       <div class="swiper blog-slider">
 
         <div class="swiper-wrapper">
-          <!-- Slides -->
+
           <a href="blog.php" class="swiper-slide blog-card image-post">
-            
+
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -303,7 +251,7 @@
             </p>
           </a>
           <a href="blog.php" class="swiper-slide blog-card image-photo">
-            
+
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -314,7 +262,7 @@
             </p>
           </a>
           <a href="blog.php" class="swiper-slide blog-card image-post">
-            
+
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>

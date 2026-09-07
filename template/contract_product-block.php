@@ -1,5 +1,5 @@
 <section class="section section-production">
-  <div class="container">
+  <div class="container-production">
     <?php
     if (!empty($block_title)) {
       echo '<div class="seporator"></div>';

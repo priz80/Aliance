@@ -5,10 +5,6 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 16px;
-}
-
 :root {
   --txt: #292d33;
   --txt2: #828a99;
@@ -35,6 +31,11 @@ html {
   font-display: swap;
 }
 
+html {
+  font-size: 16px;
+}
+
+
 h1,
 h2,
 h3 {
@@ -48,10 +49,11 @@ h3 {
 }
 
 .container-sw {
-  /*   max-width: 88rem; */
-  /*   margin: auto; */
-  margin: 0 13rem 9.375rem 15rem;
-  /*   margin-bottom: 9.375rem; */
+  margin: 0 12rem 9.375rem 15rem;
+}
+
+.container-production {
+  margin: 0 12rem 0 15rem;
 }
 
 body {
@@ -472,7 +474,7 @@ li > a {
 }
 
 .card-image {
-  width: 90%;
+  /* width: 90%; */
   position: absolute;
   bottom: 0;
   right: 0;
@@ -480,7 +482,8 @@ li > a {
 }
 
 .card-content {
-  padding: 2.5rem 3.125rem;
+  height: 100%;
+  padding: 3rem 0 1.8rem 3rem;
 }
 
 .card-title {
@@ -493,7 +496,10 @@ li > a {
 }
 
 .card-text {
-  margin-bottom: 24.625rem;
+  margin-bottom: 22.75rem;
+  letter-spacing: 0.018rem;
+  word-spacing: 0.1rem;
+  padding-right: 100px;
 }
 
 .section-trademark {
